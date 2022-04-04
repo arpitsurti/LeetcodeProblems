@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
     <Compile Include="Easy\clsFinalValueOfVariableAfterPerformingOperations.cs" />
+    <Compile Include="Easy\clsMaximumNumberOfWordsFoundInSentences.cs" />
     <Compile Include="Easy\clsRichestCustomerWealth.cs" />
     <Compile Include="Easy\clsRunningSumOf1dArray.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
