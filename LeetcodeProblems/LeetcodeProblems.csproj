@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
+    <Compile Include="Easy\clsRichestCustomerWealth.cs" />
     <Compile Include="Easy\clsRunningSumOf1dArray.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
     <Compile Include="Program.cs" />
