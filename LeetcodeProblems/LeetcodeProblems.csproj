@@ -53,6 +53,7 @@
     <Compile Include="Easy\clsNumberOfGoodPairs.cs" />
     <Compile Include="Easy\clsRichestCustomerWealth.cs" />
     <Compile Include="Easy\clsRunningSumOf1dArray.cs" />
+    <Compile Include="Easy\clsShuffleString.cs" />
     <Compile Include="Easy\clsShuffleTheArray.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
     <Compile Include="Program.cs" />
