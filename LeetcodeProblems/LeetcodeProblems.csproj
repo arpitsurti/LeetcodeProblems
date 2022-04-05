@@ -57,6 +57,7 @@
     <Compile Include="Easy\clsRunningSumOf1dArray.cs" />
     <Compile Include="Easy\clsShuffleString.cs" />
     <Compile Include="Easy\clsShuffleTheArray.cs" />
+    <Compile Include="Easy\clsSortingTheSentence.cs" />
     <Compile Include="Easy\clsSplitAStringInBalancedStrings.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
     <Compile Include="Program.cs" />
