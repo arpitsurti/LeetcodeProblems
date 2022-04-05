@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
+    <Compile Include="Easy\clsCreateTargetArrayInTheGivenOrder.cs" />
     <Compile Include="Easy\clsFinalValueOfVariableAfterPerformingOperations.cs" />
     <Compile Include="Easy\clsKidsWithTheGreatestNumberOfCandies.cs" />
     <Compile Include="Easy\clsMaximumNumberOfWordsFoundInSentences.cs" />
