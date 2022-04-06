@@ -52,6 +52,7 @@
     <Compile Include="Easy\clsGoalParserInterpretation.cs" />
     <Compile Include="Easy\clsJewelsAndStones.cs" />
     <Compile Include="Easy\clsKidsWithTheGreatestNumberOfCandies.cs" />
+    <Compile Include="Easy\clsMaximumNestingDepthOfTheParentheses.cs" />
     <Compile Include="Easy\clsMaximumNumberOfWordsFoundInSentences.cs" />
     <Compile Include="Easy\clsNumberOfGoodPairs.cs" />
     <Compile Include="Easy\clsRichestCustomerWealth.cs" />
