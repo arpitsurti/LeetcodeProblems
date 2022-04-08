@@ -52,6 +52,7 @@
     <Compile Include="Easy\clsCreateTargetArrayInTheGivenOrder.cs" />
     <Compile Include="Easy\clsDefangingAnIPAddress.cs" />
     <Compile Include="Easy\clsFinalValueOfVariableAfterPerformingOperations.cs" />
+    <Compile Include="Easy\clsFindFirstPalindromicStringInTheArray.cs" />
     <Compile Include="Easy\clsGoalParserInterpretation.cs" />
     <Compile Include="Easy\clsJewelsAndStones.cs" />
     <Compile Include="Easy\clsKidsWithTheGreatestNumberOfCandies.cs" />
