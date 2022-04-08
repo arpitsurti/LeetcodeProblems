@@ -58,6 +58,7 @@
     <Compile Include="Easy\clsMaximumNestingDepthOfTheParentheses.cs" />
     <Compile Include="Easy\clsMaximumNumberOfWordsFoundInSentences.cs" />
     <Compile Include="Easy\clsNumberOfGoodPairs.cs" />
+    <Compile Include="Easy\clsRemoveOutermostParentheses.cs" />
     <Compile Include="Easy\clsReplaceAllDigitsWithCharacters.cs" />
     <Compile Include="Easy\clsRichestCustomerWealth.cs" />
     <Compile Include="Easy\clsRingsAndRods.cs" />
