@@ -68,6 +68,7 @@
     <Compile Include="Easy\clsSplitAStringInBalancedStrings.cs" />
     <Compile Include="Easy\clsToLowerCase.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
+    <Compile Include="Easy\clsUniqueMorseCodeWords.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
