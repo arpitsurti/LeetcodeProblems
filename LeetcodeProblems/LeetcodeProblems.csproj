@@ -65,6 +65,7 @@
     <Compile Include="Easy\clsShuffleTheArray.cs" />
     <Compile Include="Easy\clsSortingTheSentence.cs" />
     <Compile Include="Easy\clsSplitAStringInBalancedStrings.cs" />
+    <Compile Include="Easy\clsToLowerCase.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
