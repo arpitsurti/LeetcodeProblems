@@ -36,18 +36,13 @@ namespace LeetcodeProblems.Easy
     {
         public int CountConsistentStrings(string allowed, string[] words)
         {
-            HashSet<char> hs = new HashSet<char>();
             int result = 0;
-            for (int i = 0; i < allowed.Length; i++)
-            {
-                hs.Add(allowed[i]);
-            }
             for (int i = 0; i < words.Length; i++)
             {
                 bool isValid = true;
                 foreach (var eachChar in words[i])
                 {
-                    if (!hs.Contains(eachChar))
+                    if (!allowed.Contains(eachChar))
                     {
                         isValid = false;
                         break;
