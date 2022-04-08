@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\clsCellsInARangeOnAnExcelSheet.cs" />
+    <Compile Include="Easy\clsCheckIfTheSentenceIsPangram.cs" />
     <Compile Include="Easy\clsCheckIfTwoStringArraysAreEquivalent.cs" />
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
     <Compile Include="Easy\clsCountItemsMatchingARule.cs" />

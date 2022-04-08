@@ -11,8 +11,6 @@ namespace LeetcodeProblems
     {
         static void Main(string[] args)
         {
-            clsRingsAndRods obj = new clsRingsAndRods();
-            obj.CountPoints("B0B6G0R6R0R6G9");
         }
     }
 }
