@@ -47,6 +47,7 @@
     <Compile Include="Easy\clsCheckIfTheSentenceIsPangram.cs" />
     <Compile Include="Easy\clsCheckIfTwoStringArraysAreEquivalent.cs" />
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
+    <Compile Include="Easy\clsCountingWordsWithAGivenPrefix.cs" />
     <Compile Include="Easy\clsCountItemsMatchingARule.cs" />
     <Compile Include="Easy\clsCountTheNumberOfConsistentStrings.cs" />
     <Compile Include="Easy\clsCreateTargetArrayInTheGivenOrder.cs" />
