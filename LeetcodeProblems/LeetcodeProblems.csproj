@@ -50,6 +50,7 @@
     <Compile Include="Easy\clsCountItemsMatchingARule.cs" />
     <Compile Include="Easy\clsCountTheNumberOfConsistentStrings.cs" />
     <Compile Include="Easy\clsCreateTargetArrayInTheGivenOrder.cs" />
+    <Compile Include="Easy\clsDecryptStringFromAlphabetToIntegerMapping.cs" />
     <Compile Include="Easy\clsDefangingAnIPAddress.cs" />
     <Compile Include="Easy\clsFinalValueOfVariableAfterPerformingOperations.cs" />
     <Compile Include="Easy\clsFindFirstPalindromicStringInTheArray.cs" />
