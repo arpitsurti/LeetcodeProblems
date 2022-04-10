@@ -73,6 +73,7 @@
     <Compile Include="Easy\clsReverseWordsInAStringIII.cs" />
     <Compile Include="Easy\clsRichestCustomerWealth.cs" />
     <Compile Include="Easy\clsRingsAndRods.cs" />
+    <Compile Include="Easy\clsRobotReturnToOrigin.cs" />
     <Compile Include="Easy\clsRunningSumOf1dArray.cs" />
     <Compile Include="Easy\clsShuffleString.cs" />
     <Compile Include="Easy\clsShuffleTheArray.cs" />
