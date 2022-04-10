@@ -70,6 +70,7 @@
     <Compile Include="Easy\clsRemoveOutermostParentheses.cs" />
     <Compile Include="Easy\clsReplaceAllDigitsWithCharacters.cs" />
     <Compile Include="Easy\clsReversePrefixOfWord.cs" />
+    <Compile Include="Easy\clsReverseString.cs" />
     <Compile Include="Easy\clsReverseWordsInAStringIII.cs" />
     <Compile Include="Easy\clsRichestCustomerWealth.cs" />
     <Compile Include="Easy\clsRingsAndRods.cs" />
