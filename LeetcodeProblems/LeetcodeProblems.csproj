@@ -70,6 +70,7 @@
     <Compile Include="Easy\clsSortingTheSentence.cs" />
     <Compile Include="Easy\clsSplitAStringInBalancedStrings.cs" />
     <Compile Include="Easy\clsToLowerCase.cs" />
+    <Compile Include="Easy\clsTruncateSentence.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
     <Compile Include="Easy\clsUniqueMorseCodeWords.cs" />
     <Compile Include="Program.cs" />
