@@ -63,6 +63,7 @@
     <Compile Include="Easy\clsGoalParserInterpretation.cs" />
     <Compile Include="Easy\clsJewelsAndStones.cs" />
     <Compile Include="Easy\clsKidsWithTheGreatestNumberOfCandies.cs" />
+    <Compile Include="Easy\clsMaximumDepthOfBinaryTree.cs" />
     <Compile Include="Easy\clsMaximumNestingDepthOfTheParentheses.cs" />
     <Compile Include="Easy\clsMaximumNumberOfWordsFoundInSentences.cs" />
     <Compile Include="Easy\clsMergeStringsAlternately.cs" />
