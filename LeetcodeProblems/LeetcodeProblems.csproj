@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonClass\TreeNode.cs" />
     <Compile Include="Easy\clsCellsInARangeOnAnExcelSheet.cs" />
     <Compile Include="Easy\clsCheckIfAllCharactersHaveEqualNumberOfOccurrences.cs" />
     <Compile Include="Easy\clsCheckIfTheSentenceIsPangram.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Easy\clsMergeStringsAlternately.cs" />
     <Compile Include="Easy\clsNumberOfGoodPairs.cs" />
     <Compile Include="Easy\clsNumberOfStringsThatAppearAsSubstringsInWord.cs" />
+    <Compile Include="Easy\clsRangeSumOfBST.cs" />
     <Compile Include="Easy\clsRemoveOutermostParentheses.cs" />
     <Compile Include="Easy\clsReplaceAllDigitsWithCharacters.cs" />
     <Compile Include="Easy\clsReversePrefixOfWord.cs" />
