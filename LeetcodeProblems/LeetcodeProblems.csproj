@@ -61,6 +61,7 @@
     <Compile Include="Easy\clsDetermineIfStringHalvesAreAlike.cs" />
     <Compile Include="Easy\clsFinalValueOfVariableAfterPerformingOperations.cs" />
     <Compile Include="Easy\clsFindFirstPalindromicStringInTheArray.cs" />
+    <Compile Include="Easy\clsGenerateAStringWithCharactersThatHaveOddCounts.cs" />
     <Compile Include="Easy\clsGoalParserInterpretation.cs" />
     <Compile Include="Easy\clsJewelsAndStones.cs" />
     <Compile Include="Easy\clsKidsWithTheGreatestNumberOfCandies.cs" />
