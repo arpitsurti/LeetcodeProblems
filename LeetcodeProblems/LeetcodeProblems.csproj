@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonClass\TreeNode.cs" />
+    <Compile Include="Easy\clsAverageOfLevelsInBinaryTree.cs" />
     <Compile Include="Easy\clsBinaryTreeInorderTraversal.cs" />
     <Compile Include="Easy\clsCellsInARangeOnAnExcelSheet.cs" />
     <Compile Include="Easy\clsCheckIfAllA%27sAppearsBeforeAllB%27s.cs" />
