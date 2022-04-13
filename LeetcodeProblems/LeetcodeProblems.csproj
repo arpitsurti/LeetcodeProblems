@@ -53,6 +53,7 @@
     <Compile Include="Easy\clsCheckIfTwoStringArraysAreEquivalent.cs" />
     <Compile Include="Easy\clsCheckIfWordEqualsSummationOfTwoWords.cs" />
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
+    <Compile Include="Easy\clsConvertSortedArrayToBinarySearchTree.cs" />
     <Compile Include="Easy\clsCountingWordsWithAGivenPrefix.cs" />
     <Compile Include="Easy\clsCountItemsMatchingARule.cs" />
     <Compile Include="Easy\clsCountTheNumberOfConsistentStrings.cs" />
