@@ -79,6 +79,7 @@
     <Compile Include="Easy\clsMaximumNumberOfWordsFoundInSentences.cs" />
     <Compile Include="Easy\clsMergeStringsAlternately.cs" />
     <Compile Include="Easy\clsMergeTwoBinaryTrees.cs" />
+    <Compile Include="Easy\clsNextGreaterElementI.cs" />
     <Compile Include="Easy\clsNumberOfGoodPairs.cs" />
     <Compile Include="Easy\clsNumberOfStringsThatAppearAsSubstringsInWord.cs" />
     <Compile Include="Easy\clsRangeSumOfBST.cs" />
