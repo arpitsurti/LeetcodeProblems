@@ -72,6 +72,7 @@
     <Compile Include="Easy\clsFirstUniqueCharacterInAString.cs" />
     <Compile Include="Easy\clsGenerateAStringWithCharactersThatHaveOddCounts.cs" />
     <Compile Include="Easy\clsGoalParserInterpretation.cs" />
+    <Compile Include="Easy\clsHowManyNumbersAreSmallerThanTheCurrentNumber.cs" />
     <Compile Include="Easy\clsIncreasingOrderSearchTree.cs" />
     <Compile Include="Easy\clsInvertBinaryTree.cs" />
     <Compile Include="Easy\clsJewelsAndStones.cs" />
