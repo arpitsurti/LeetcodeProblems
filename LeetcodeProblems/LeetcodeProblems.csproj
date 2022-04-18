@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonClass\ListNode.cs" />
     <Compile Include="CommonClass\TreeNode.cs" />
     <Compile Include="Easy\clsAverageOfLevelsInBinaryTree.cs" />
     <Compile Include="Easy\clsBackspaceStringCompare.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="Easy\clsCheckIfTwoStringArraysAreEquivalent.cs" />
     <Compile Include="Easy\clsCheckIfWordEqualsSummationOfTwoWords.cs" />
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
+    <Compile Include="Easy\clsConvertBinaryNumberInALinkedListToInteger.cs" />
     <Compile Include="Easy\clsConvertSortedArrayToBinarySearchTree.cs" />
     <Compile Include="Easy\clsCountingWordsWithAGivenPrefix.cs" />
     <Compile Include="Easy\clsCountItemsMatchingARule.cs" />
