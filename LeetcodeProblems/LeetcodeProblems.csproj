@@ -85,6 +85,7 @@
     <Compile Include="Easy\clsMaximumNumberOfWordsFoundInSentences.cs" />
     <Compile Include="Easy\clsMergeStringsAlternately.cs" />
     <Compile Include="Easy\clsMergeTwoBinaryTrees.cs" />
+    <Compile Include="Easy\clsMergeTwoSortedLists.cs" />
     <Compile Include="Easy\clsMiddleOfTheLinkedList.cs" />
     <Compile Include="Easy\clsNextGreaterElementI.cs" />
     <Compile Include="Easy\clsNumberOfGoodPairs.cs" />
