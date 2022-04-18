@@ -96,6 +96,7 @@
     <Compile Include="Easy\clsRangeSumOfBST.cs" />
     <Compile Include="Easy\clsRemoveAllAdjacentDuplicatesInString.cs" />
     <Compile Include="Easy\clsRemoveDuplicatesFromSortedList.cs" />
+    <Compile Include="Easy\clsRemoveLinkedListElements.cs" />
     <Compile Include="Easy\clsRemoveOutermostParentheses.cs" />
     <Compile Include="Easy\clsReplaceAllDigitsWithCharacters.cs" />
     <Compile Include="Easy\clsReverseLinkedList.cs" />
