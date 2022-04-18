@@ -65,6 +65,7 @@
     <Compile Include="Easy\clsCreateTargetArrayInTheGivenOrder.cs" />
     <Compile Include="Easy\clsDecryptStringFromAlphabetToIntegerMapping.cs" />
     <Compile Include="Easy\clsDefangingAnIPAddress.cs" />
+    <Compile Include="Easy\clsDeleteNodeInALinkedList.cs" />
     <Compile Include="Easy\clsDestinationCity.cs" />
     <Compile Include="Easy\clsDetermineColorOfAChessboardSquare.cs" />
     <Compile Include="Easy\clsDetermineIfStringHalvesAreAlike.cs" />
