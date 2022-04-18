@@ -91,6 +91,7 @@
     <Compile Include="Easy\clsNextGreaterElementI.cs" />
     <Compile Include="Easy\clsNumberOfGoodPairs.cs" />
     <Compile Include="Easy\clsNumberOfStringsThatAppearAsSubstringsInWord.cs" />
+    <Compile Include="Easy\clsPalindromeLinkedList.cs" />
     <Compile Include="Easy\clsRangeSumOfBST.cs" />
     <Compile Include="Easy\clsRemoveAllAdjacentDuplicatesInString.cs" />
     <Compile Include="Easy\clsRemoveDuplicatesFromSortedList.cs" />

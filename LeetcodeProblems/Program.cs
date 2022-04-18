@@ -1,5 +1,4 @@
-﻿
-namespace LeetcodeProblems
+﻿namespace LeetcodeProblems
 {
     class Program
     {
