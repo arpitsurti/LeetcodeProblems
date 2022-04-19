@@ -61,6 +61,7 @@
     <Compile Include="Easy\clsConvertSortedArrayToBinarySearchTree.cs" />
     <Compile Include="Easy\clsCountingWordsWithAGivenPrefix.cs" />
     <Compile Include="Easy\clsCountItemsMatchingARule.cs" />
+    <Compile Include="Easy\clsCountNumberOfPairsWithAbsoluteDifferenceK.cs" />
     <Compile Include="Easy\clsCountTheNumberOfConsistentStrings.cs" />
     <Compile Include="Easy\clsCreateTargetArrayInTheGivenOrder.cs" />
     <Compile Include="Easy\clsDecryptStringFromAlphabetToIntegerMapping.cs" />
