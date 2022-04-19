@@ -86,6 +86,7 @@
     <Compile Include="Easy\clsMaximumDepthOfBinaryTree.cs" />
     <Compile Include="Easy\clsMaximumNestingDepthOfTheParentheses.cs" />
     <Compile Include="Easy\clsMaximumNumberOfWordsFoundInSentences.cs" />
+    <Compile Include="Easy\clsMaximumProductDifferenceBetweenTwoPairs.cs" />
     <Compile Include="Easy\clsMergeStringsAlternately.cs" />
     <Compile Include="Easy\clsMergeTwoBinaryTrees.cs" />
     <Compile Include="Easy\clsMergeTwoSortedLists.cs" />
