@@ -74,6 +74,7 @@
     <Compile Include="Easy\clsFinalPricesWithASpecialDiscountInAShop.cs" />
     <Compile Include="Easy\clsFinalValueOfVariableAfterPerformingOperations.cs" />
     <Compile Include="Easy\clsFindFirstPalindromicStringInTheArray.cs" />
+    <Compile Include="Easy\clsFindNumbersWithEvenNumberOfDigits.cs" />
     <Compile Include="Easy\clsFindTargetIndicesAfterSortingArray.cs" />
     <Compile Include="Easy\clsFirstUniqueCharacterInAString.cs" />
     <Compile Include="Easy\clsGenerateAStringWithCharactersThatHaveOddCounts.cs" />
