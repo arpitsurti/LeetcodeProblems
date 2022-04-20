@@ -120,6 +120,7 @@
     <Compile Include="Easy\clsRootEqualsSumOfChildren.cs" />
     <Compile Include="Easy\clsRunningSumOf1dArray.cs" />
     <Compile Include="Easy\clsSearchInABinarySearchTree.cs" />
+    <Compile Include="Easy\clsShortestDistanceToACharacter.cs" />
     <Compile Include="Easy\clsShuffleString.cs" />
     <Compile Include="Easy\clsShuffleTheArray.cs" />
     <Compile Include="Easy\clsSmallestIndexWithEqualValue.cs" />
