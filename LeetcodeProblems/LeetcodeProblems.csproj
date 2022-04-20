@@ -128,6 +128,7 @@
     <Compile Include="Easy\clsTimeNeededToBuyTickets.cs" />
     <Compile Include="Easy\clsToLowerCase.cs" />
     <Compile Include="Easy\clsTruncateSentence.cs" />
+    <Compile Include="Easy\clsTwoOutOfThree.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
     <Compile Include="Easy\clsUniqueMorseCodeWords.cs" />
     <Compile Include="Easy\clsUnivaluedBinaryTree.cs" />
