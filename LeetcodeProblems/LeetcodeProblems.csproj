@@ -70,6 +70,7 @@
     <Compile Include="Easy\clsDestinationCity.cs" />
     <Compile Include="Easy\clsDetermineColorOfAChessboardSquare.cs" />
     <Compile Include="Easy\clsDetermineIfStringHalvesAreAlike.cs" />
+    <Compile Include="Easy\clsDivideArrayIntoEqualPairs.cs" />
     <Compile Include="Easy\clsFinalPricesWithASpecialDiscountInAShop.cs" />
     <Compile Include="Easy\clsFinalValueOfVariableAfterPerformingOperations.cs" />
     <Compile Include="Easy\clsFindFirstPalindromicStringInTheArray.cs" />
