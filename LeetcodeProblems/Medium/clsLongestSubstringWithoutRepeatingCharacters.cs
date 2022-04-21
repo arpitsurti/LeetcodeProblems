@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Medium
 {
     /*3. Longest Substring Without Repeating Characters
+        *** REF ***
+        //https://www.youtube.com/watch?v=3IETreEybaA&t=393s
         Given a string s, find the length of the longest substring without repeating characters.
 
         Example 1:
