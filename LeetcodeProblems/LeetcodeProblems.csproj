@@ -129,6 +129,7 @@
     <Compile Include="Easy\clsSortArrayByParity.cs" />
     <Compile Include="Easy\clsSortingTheSentence.cs" />
     <Compile Include="Easy\clsSplitAStringInBalancedStrings.cs" />
+    <Compile Include="Easy\clsSubstringsOfSizeThreeWithDistinctCharacters.cs" />
     <Compile Include="Easy\clsSumOfRootToLeafBinaryNumbers.cs" />
     <Compile Include="Easy\clsSumOfUniqueElements.cs" />
     <Compile Include="Easy\clsTimeNeededToBuyTickets.cs" />
