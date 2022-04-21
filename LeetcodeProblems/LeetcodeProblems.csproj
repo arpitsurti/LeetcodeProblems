@@ -108,6 +108,7 @@
     <Compile Include="Easy\clsNumberOfStudentsDoingHomeworkAtAGivenTime.cs" />
     <Compile Include="Easy\clsPalindromeLinkedList.cs" />
     <Compile Include="Easy\clsRangeSumOfBST.cs" />
+    <Compile Include="Easy\clsReformatDate.cs" />
     <Compile Include="Easy\clsRemoveAllAdjacentDuplicatesInString.cs" />
     <Compile Include="Easy\clsRemoveDuplicatesFromSortedList.cs" />
     <Compile Include="Easy\clsRemoveLinkedListElements.cs" />
