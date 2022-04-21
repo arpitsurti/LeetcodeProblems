@@ -59,6 +59,7 @@
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
     <Compile Include="Easy\clsConvertBinaryNumberInALinkedListToInteger.cs" />
     <Compile Include="Easy\clsConvertSortedArrayToBinarySearchTree.cs" />
+    <Compile Include="Easy\clsCountCommonWordsWithOneOccurrence.cs" />
     <Compile Include="Easy\clsCountingWordsWithAGivenPrefix.cs" />
     <Compile Include="Easy\clsCountItemsMatchingARule.cs" />
     <Compile Include="Easy\clsCountNumberOfPairsWithAbsoluteDifferenceK.cs" />
