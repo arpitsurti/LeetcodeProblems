@@ -8,6 +8,7 @@ namespace LeetcodeProblems.Easy
 {
     /*1002. Find Common Characters
      *** REF IMP ***
+     //https://www.youtube.com/watch?v=k1iowWJimbg
      * Given a string array words, return an array of all characters that show up in all strings within the words (including duplicates). You may return the answer in any order.
 
         Example 1:
