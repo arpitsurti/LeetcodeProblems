@@ -148,6 +148,7 @@
     <Compile Include="Medium\clsAddTwoNumbers.cs" />
     <Compile Include="Medium\clsLongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="Medium\clsMergeNodesInBetweenZeros.cs" />
+    <Compile Include="Easy\clsSignOfTheProductOfAnArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
