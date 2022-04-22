@@ -67,6 +67,7 @@
     <Compile Include="Easy\clsCountNumberOfPairsWithAbsoluteDifferenceK.cs" />
     <Compile Include="Easy\clsCountTheNumberOfConsistentStrings.cs" />
     <Compile Include="Easy\clsCreateTargetArrayInTheGivenOrder.cs" />
+    <Compile Include="Easy\clsDecompressRun-LengthEncodedList.cs" />
     <Compile Include="Easy\clsDecryptStringFromAlphabetToIntegerMapping.cs" />
     <Compile Include="Easy\clsDefangingAnIPAddress.cs" />
     <Compile Include="Easy\clsDeleteColumnsToMakeSorted.cs" />
