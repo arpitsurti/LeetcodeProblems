@@ -50,6 +50,7 @@
     <Compile Include="Easy\clsBaseballGame.cs" />
     <Compile Include="Easy\clsBinaryTreeInorderTraversal.cs" />
     <Compile Include="Easy\clsBuildAnArrayWithStackOperations.cs" />
+    <Compile Include="Easy\clsBuildArrayFromPermutation.cs" />
     <Compile Include="Easy\clsCellsInARangeOnAnExcelSheet.cs" />
     <Compile Include="Easy\clsCheckIfAllA%27sAppearsBeforeAllB%27s.cs" />
     <Compile Include="Easy\clsCheckIfAllCharactersHaveEqualNumberOfOccurrences.cs" />
