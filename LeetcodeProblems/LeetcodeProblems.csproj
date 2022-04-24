@@ -154,6 +154,7 @@
     <Compile Include="Easy\clsUniqueMorseCodeWords.cs" />
     <Compile Include="Easy\clsUniqueNumberOfOccurrences.cs" />
     <Compile Include="Easy\clsUnivaluedBinaryTree.cs" />
+    <Compile Include="Easy\clsValidParentheses.cs" />
     <Compile Include="Easy\OrderedStream.cs" />
     <Compile Include="Medium\clsAddTwoNumbers.cs" />
     <Compile Include="Medium\clsLongestSubstringWithoutRepeatingCharacters.cs" />
