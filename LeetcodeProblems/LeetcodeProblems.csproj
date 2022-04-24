@@ -58,6 +58,7 @@
     <Compile Include="Easy\clsCheckIfTheSentenceIsPangram.cs" />
     <Compile Include="Easy\clsCheckIfTwoStringArraysAreEquivalent.cs" />
     <Compile Include="Easy\clsCheckIfWordEqualsSummationOfTwoWords.cs" />
+    <Compile Include="Easy\clsClimbingStairs.cs" />
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
     <Compile Include="Easy\clsContainsDuplicate.cs" />
     <Compile Include="Easy\clsConvertBinaryNumberInALinkedListToInteger.cs" />
