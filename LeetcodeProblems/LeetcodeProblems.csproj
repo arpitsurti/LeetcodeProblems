@@ -141,6 +141,7 @@
     <Compile Include="Easy\clsRomanToInteger.cs" />
     <Compile Include="Easy\clsRootEqualsSumOfChildren.cs" />
     <Compile Include="Easy\clsRunningSumOf1dArray.cs" />
+    <Compile Include="Easy\clsSameTree.cs" />
     <Compile Include="Easy\clsSearchInABinarySearchTree.cs" />
     <Compile Include="Easy\clsSearchInsertPosition.cs" />
     <Compile Include="Easy\clsShortestDistanceToACharacter.cs" />
