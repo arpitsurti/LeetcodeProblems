@@ -129,6 +129,7 @@
     <Compile Include="Easy\clsRichestCustomerWealth.cs" />
     <Compile Include="Easy\clsRingsAndRods.cs" />
     <Compile Include="Easy\clsRobotReturnToOrigin.cs" />
+    <Compile Include="Easy\clsRomanToInteger.cs" />
     <Compile Include="Easy\clsRootEqualsSumOfChildren.cs" />
     <Compile Include="Easy\clsRunningSumOf1dArray.cs" />
     <Compile Include="Easy\clsSearchInABinarySearchTree.cs" />
