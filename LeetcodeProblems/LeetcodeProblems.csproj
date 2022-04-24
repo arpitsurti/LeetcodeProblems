@@ -120,6 +120,7 @@
     <Compile Include="Easy\clsRemoveAllAdjacentDuplicatesInString.cs" />
     <Compile Include="Easy\clsRemoveDuplicatesFromSortedArray.cs" />
     <Compile Include="Easy\clsRemoveDuplicatesFromSortedList.cs" />
+    <Compile Include="Easy\clsRemoveElement.cs" />
     <Compile Include="Easy\clsRemoveLinkedListElements.cs" />
     <Compile Include="Easy\clsRemoveOutermostParentheses.cs" />
     <Compile Include="Easy\clsRemovePalindromicSubsequences.cs" />
