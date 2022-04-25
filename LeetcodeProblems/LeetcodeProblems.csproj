@@ -55,6 +55,7 @@
     <Compile Include="Easy\clsCellsInARangeOnAnExcelSheet.cs" />
     <Compile Include="Easy\clsCheckIfAllA%27sAppearsBeforeAllB%27s.cs" />
     <Compile Include="Easy\clsCheckIfAllCharactersHaveEqualNumberOfOccurrences.cs" />
+    <Compile Include="Easy\clsCheckIfNumbersAreAscendingInASentence.cs" />
     <Compile Include="Easy\clsCheckIfTheSentenceIsPangram.cs" />
     <Compile Include="Easy\clsCheckIfTwoStringArraysAreEquivalent.cs" />
     <Compile Include="Easy\clsCheckIfWordEqualsSummationOfTwoWords.cs" />
