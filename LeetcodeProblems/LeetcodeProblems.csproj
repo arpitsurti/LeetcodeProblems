@@ -167,6 +167,7 @@
     <Compile Include="Easy\clsTruncateSentence.cs" />
     <Compile Include="Easy\clsTwoOutOfThree.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
+    <Compile Include="Easy\clsUniqueEmailAddresses.cs" />
     <Compile Include="Easy\clsUniqueMorseCodeWords.cs" />
     <Compile Include="Easy\clsUniqueNumberOfOccurrences.cs" />
     <Compile Include="Easy\clsUnivaluedBinaryTree.cs" />
