@@ -113,6 +113,7 @@
     <Compile Include="Easy\clsMergeTwoBinaryTrees.cs" />
     <Compile Include="Easy\clsMergeTwoSortedLists.cs" />
     <Compile Include="Easy\clsMiddleOfTheLinkedList.cs" />
+    <Compile Include="Easy\clsMinimumDepthOfBinaryTree.cs" />
     <Compile Include="Easy\clsMinimumTimeToTypeWordUsingSpecialTypewriter.cs" />
     <Compile Include="Easy\clsNextGreaterElementI.cs" />
     <Compile Include="Easy\clsNumberOfGoodPairs.cs" />
@@ -156,6 +157,7 @@
     <Compile Include="Easy\clsSumOfAllOddLengthSubarrays.cs" />
     <Compile Include="Easy\clsSumOfRootToLeafBinaryNumbers.cs" />
     <Compile Include="Easy\clsSumOfUniqueElements.cs" />
+    <Compile Include="Easy\clsSymmetricTree.cs" />
     <Compile Include="Easy\clsTimeNeededToBuyTickets.cs" />
     <Compile Include="Easy\clsToLowerCase.cs" />
     <Compile Include="Easy\clsTruncateSentence.cs" />
