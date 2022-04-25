@@ -89,6 +89,7 @@
     <Compile Include="Easy\clsFindNUniqueIntegersSumUpToZero.cs" />
     <Compile Include="Easy\clsFindTargetIndicesAfterSortingArray.cs" />
     <Compile Include="Easy\clsFirstUniqueCharacterInAString.cs" />
+    <Compile Include="Easy\clsFizzBuzz.cs" />
     <Compile Include="Easy\clsGenerateAStringWithCharactersThatHaveOddCounts.cs" />
     <Compile Include="Easy\clsGoalParserInterpretation.cs" />
     <Compile Include="Easy\clsGoatLatin.cs" />
