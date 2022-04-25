@@ -169,6 +169,7 @@
     <Compile Include="Easy\clsUnivaluedBinaryTree.cs" />
     <Compile Include="Easy\clsValidParentheses.cs" />
     <Compile Include="Easy\OrderedStream.cs" />
+    <Compile Include="Hard\clsFirstMissingPositive.cs" />
     <Compile Include="Medium\clsAddTwoNumbers.cs" />
     <Compile Include="Medium\clsLongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="Medium\clsMaximumProductSubarray.cs" />
