@@ -96,6 +96,7 @@
     <Compile Include="Easy\clsIntersectionOfTwoLinkedLists.cs" />
     <Compile Include="Easy\clsInvertBinaryTree.cs" />
     <Compile Include="Easy\clsJewelsAndStones.cs" />
+    <Compile Include="Easy\clsKeyboardRow.cs" />
     <Compile Include="Easy\clsKidsWithTheGreatestNumberOfCandies.cs" />
     <Compile Include="Easy\clsKthDistinctStringInAnArray.cs" />
     <Compile Include="Easy\clsLengthOfLastWord.cs" />
