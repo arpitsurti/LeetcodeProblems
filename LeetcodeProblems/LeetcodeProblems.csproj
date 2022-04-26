@@ -87,6 +87,7 @@
     <Compile Include="Easy\clsFindCenterOfStarGraph.cs" />
     <Compile Include="Easy\clsFindCommonCharacters.cs" />
     <Compile Include="Easy\clsFindFirstPalindromicStringInTheArray.cs" />
+    <Compile Include="Easy\clsFindIfPathExistsInGraph.cs" />
     <Compile Include="Easy\clsFindNumbersWithEvenNumberOfDigits.cs" />
     <Compile Include="Easy\clsFindNUniqueIntegersSumUpToZero.cs" />
     <Compile Include="Easy\clsFindTargetIndicesAfterSortingArray.cs" />
