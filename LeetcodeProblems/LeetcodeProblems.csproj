@@ -91,6 +91,7 @@
     <Compile Include="Easy\clsFindNumbersWithEvenNumberOfDigits.cs" />
     <Compile Include="Easy\clsFindNUniqueIntegersSumUpToZero.cs" />
     <Compile Include="Easy\clsFindTargetIndicesAfterSortingArray.cs" />
+    <Compile Include="Easy\clsFindTheTownJudge.cs" />
     <Compile Include="Easy\clsFirstUniqueCharacterInAString.cs" />
     <Compile Include="Easy\clsFizzBuzz.cs" />
     <Compile Include="Easy\clsGenerateAStringWithCharactersThatHaveOddCounts.cs" />
