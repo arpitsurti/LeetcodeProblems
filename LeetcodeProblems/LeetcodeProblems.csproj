@@ -84,6 +84,7 @@
     <Compile Include="Easy\clsDivideArrayIntoEqualPairs.cs" />
     <Compile Include="Easy\clsFinalPricesWithASpecialDiscountInAShop.cs" />
     <Compile Include="Easy\clsFinalValueOfVariableAfterPerformingOperations.cs" />
+    <Compile Include="Easy\clsFindCenterOfStarGraph.cs" />
     <Compile Include="Easy\clsFindCommonCharacters.cs" />
     <Compile Include="Easy\clsFindFirstPalindromicStringInTheArray.cs" />
     <Compile Include="Easy\clsFindNumbersWithEvenNumberOfDigits.cs" />
