@@ -130,6 +130,7 @@
     <Compile Include="Easy\clsNumberOfStudentsDoingHomeworkAtAGivenTime.cs" />
     <Compile Include="Easy\clsPalindromeLinkedList.cs" />
     <Compile Include="Easy\clsPalindromeNumber.cs" />
+    <Compile Include="Easy\clsPathSum.cs" />
     <Compile Include="Easy\clsPlusOne.cs" />
     <Compile Include="Easy\clsRangeSumOfBST.cs" />
     <Compile Include="Easy\clsReformatDate.cs" />
