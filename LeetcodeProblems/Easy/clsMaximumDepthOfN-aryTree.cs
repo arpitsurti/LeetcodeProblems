@@ -26,7 +26,7 @@ namespace LeetcodeProblems.Easy
         The total number of nodes is in the range [0, 104].
         The depth of the n-ary tree is less than or equal to 1000.
     */
-    class clsMaximumDepthOfN_aryTree
+    public class clsMaximumDepthOfN_aryTree
     {
         public int MaxDepth(Node root)
         {
