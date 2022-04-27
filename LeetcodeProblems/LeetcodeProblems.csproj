@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonClass\ListNode.cs" />
+    <Compile Include="CommonClass\Node.cs" />
     <Compile Include="CommonClass\TreeNode.cs" />
     <Compile Include="Easy\clsAddBinary.cs" />
     <Compile Include="Easy\clsAverageOfLevelsInBinaryTree.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="Easy\clsMiddleOfTheLinkedList.cs" />
     <Compile Include="Easy\clsMinimumDepthOfBinaryTree.cs" />
     <Compile Include="Easy\clsMinimumTimeToTypeWordUsingSpecialTypewriter.cs" />
+    <Compile Include="Easy\clsN-aryTreePostorderTraversal.cs" />
     <Compile Include="Easy\clsNextGreaterElementI.cs" />
     <Compile Include="Easy\clsNumberOfGoodPairs.cs" />
     <Compile Include="Easy\clsNumberOfStringsThatAppearAsSubstringsInWord.cs" />
