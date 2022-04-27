@@ -113,6 +113,7 @@
     <Compile Include="Easy\clsMajorityElement.cs" />
     <Compile Include="Easy\clsMakeTheStringGreat.cs" />
     <Compile Include="Easy\clsMaximumDepthOfBinaryTree.cs" />
+    <Compile Include="Easy\clsMaximumDepthOfN-aryTree.cs" />
     <Compile Include="Easy\clsMaximumNestingDepthOfTheParentheses.cs" />
     <Compile Include="Easy\clsMaximumNumberOfWordsFoundInSentences.cs" />
     <Compile Include="Easy\clsMaximumNumberOfWordsYouCanType.cs" />
