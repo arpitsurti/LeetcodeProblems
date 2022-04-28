@@ -29,17 +29,21 @@ namespace LeetcodeProblems.Easy
     {
         public int MaxPower(string s)
         {
-            int currMax = 1;
+            int currMax = 0;
             int max = 0;
-            for (int i = 0; i < s.Length - 1; i++)
+            char prev = ' ';
+            for (int i = 0; i < s.Length; i++)
             {
-                if (s[i] == s[i + 1])
+                if (s[i] == prev)
                     currMax++;
                 else
+                {
                     currMax = 1;
+                    prev = s[i];
+                }
                 max = Math.Max(max, currMax);
             }
-            return Math.Max(max, currMax);
+            return max;
         }
     }
 }
