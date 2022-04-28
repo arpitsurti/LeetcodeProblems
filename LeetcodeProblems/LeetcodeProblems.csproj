@@ -71,6 +71,7 @@
     <Compile Include="Easy\clsCountEqualAndDivisiblePairsInAnArray.cs" />
     <Compile Include="Easy\clsCountingWordsWithAGivenPrefix.cs" />
     <Compile Include="Easy\clsCountItemsMatchingARule.cs" />
+    <Compile Include="Easy\clsCountNegativeNumbersInASortedMatrix.cs" />
     <Compile Include="Easy\clsCountNumberOfPairsWithAbsoluteDifferenceK.cs" />
     <Compile Include="Easy\clsCountTheNumberOfConsistentStrings.cs" />
     <Compile Include="Easy\clsCreateTargetArrayInTheGivenOrder.cs" />
