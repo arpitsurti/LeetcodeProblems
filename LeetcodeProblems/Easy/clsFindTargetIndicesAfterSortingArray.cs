@@ -37,6 +37,23 @@ namespace LeetcodeProblems.Easy
     {
         public IList<int> TargetIndices(int[] nums, int target)
         {
+            /* Smart Approach
+             int lessThan = 0;
+        int count = 0;
+        for(int i=0;i<nums.Length;i++)
+        {
+            if(nums[i] == target)
+                count++;
+            else if(nums[i] < target)
+                lessThan++;
+        }
+        List<int> lstResult = new List<int>();
+        for(int i=0;i<count;i++)
+        {
+            lstResult.Add(lessThan++);
+        }
+        return lstResult;
+            */
             int max = int.MinValue;
             int min = int.MaxValue;
             for (int i = 0; i < nums.Length; i++)
