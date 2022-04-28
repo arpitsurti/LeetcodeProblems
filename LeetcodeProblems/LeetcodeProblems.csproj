@@ -168,6 +168,7 @@
     <Compile Include="Easy\clsSortArrayByParity.cs" />
     <Compile Include="Easy\clsSortingTheSentence.cs" />
     <Compile Include="Easy\clsSplitAStringInBalancedStrings.cs" />
+    <Compile Include="Easy\clsSqrt%28x%29.cs" />
     <Compile Include="Easy\clsSquaresOfASortedArray.cs" />
     <Compile Include="Easy\clsStringMatchingInAnArray.cs" />
     <Compile Include="Easy\clsSubstringsOfSizeThreeWithDistinctCharacters.cs" />
