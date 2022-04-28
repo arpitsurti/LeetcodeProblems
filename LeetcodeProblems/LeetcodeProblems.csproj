@@ -64,6 +64,7 @@
     <Compile Include="Easy\clsCheckIfWordEqualsSummationOfTwoWords.cs" />
     <Compile Include="Easy\clsClimbingStairs.cs" />
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
+    <Compile Include="Easy\clsConsecutiveCharacters.cs" />
     <Compile Include="Easy\clsContainsDuplicate.cs" />
     <Compile Include="Easy\clsConvertBinaryNumberInALinkedListToInteger.cs" />
     <Compile Include="Easy\clsConvertSortedArrayToBinarySearchTree.cs" />
