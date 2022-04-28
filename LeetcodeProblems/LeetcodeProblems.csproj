@@ -198,6 +198,7 @@
     <Compile Include="Medium\clsBinaryTreeRightSideView.cs" />
     <Compile Include="Medium\clsDeepestLeavesSum.cs" />
     <Compile Include="Medium\clsLongestSubstringWithoutRepeatingCharacters.cs" />
+    <Compile Include="Medium\clsMatrixDiagonalSum.cs" />
     <Compile Include="Medium\clsMaximumProductSubarray.cs" />
     <Compile Include="Medium\clsMergeNodesInBetweenZeros.cs" />
     <Compile Include="Easy\clsSignOfTheProductOfAnArray.cs" />
