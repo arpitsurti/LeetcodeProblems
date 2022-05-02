@@ -91,6 +91,7 @@
     <Compile Include="Easy\clsDuplicateZeros.cs" />
     <Compile Include="Easy\clsFinalPricesWithASpecialDiscountInAShop.cs" />
     <Compile Include="Easy\clsFinalValueOfVariableAfterPerformingOperations.cs" />
+    <Compile Include="Easy\clsFindAllNumbersDisappearedInAnArray.cs" />
     <Compile Include="Easy\clsFindCenterOfStarGraph.cs" />
     <Compile Include="Easy\clsFindCommonCharacters.cs" />
     <Compile Include="Easy\clsFindFirstPalindromicStringInTheArray.cs" />
