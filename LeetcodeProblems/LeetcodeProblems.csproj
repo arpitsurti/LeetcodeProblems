@@ -187,6 +187,7 @@
     <Compile Include="Easy\clsSumOfRootToLeafBinaryNumbers.cs" />
     <Compile Include="Easy\clsSumOfUniqueElements.cs" />
     <Compile Include="Easy\clsSymmetricTree.cs" />
+    <Compile Include="Easy\clsThirdMaximumNumber.cs" />
     <Compile Include="Easy\clsTimeNeededToBuyTickets.cs" />
     <Compile Include="Easy\clsToLowerCase.cs" />
     <Compile Include="Easy\clsTruncateSentence.cs" />
