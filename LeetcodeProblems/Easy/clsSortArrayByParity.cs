@@ -28,16 +28,14 @@ namespace LeetcodeProblems.Easy
         public int[] SortArrayByParity(int[] nums)
         {
             int[] output = new int[nums.Length];
-            int index = 0;
-            for (int i = 0; i < output.Length; i++)
+            int left = 0;
+            int right = nums.Length - 1;
+            for (int i = 0; i < nums.Length; i++)
             {
                 if (nums[i] % 2 == 0)
-                    output[index++] = nums[i];
-            }
-            for (int i = 0; i < output.Length; i++)
-            {
-                if (nums[i] % 2 == 1)
-                    output[index++] = nums[i];
+                    output[left++] = nums[i];
+                else
+                    output[right--] = nums[i];
             }
             return output;
         }
