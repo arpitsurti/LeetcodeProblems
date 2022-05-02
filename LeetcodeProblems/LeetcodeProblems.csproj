@@ -105,6 +105,7 @@
     <Compile Include="Easy\clsGenerateAStringWithCharactersThatHaveOddCounts.cs" />
     <Compile Include="Easy\clsGoalParserInterpretation.cs" />
     <Compile Include="Easy\clsGoatLatin.cs" />
+    <Compile Include="Easy\clsHeightChecker.cs" />
     <Compile Include="Easy\clsHowManyNumbersAreSmallerThanTheCurrentNumber.cs" />
     <Compile Include="Easy\clsImplementstrStr.cs" />
     <Compile Include="Easy\clsIncreasingOrderSearchTree.cs" />
