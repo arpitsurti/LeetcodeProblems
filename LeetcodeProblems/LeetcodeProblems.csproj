@@ -87,6 +87,7 @@
     <Compile Include="Easy\clsDetermineIfStringHalvesAreAlike.cs" />
     <Compile Include="Easy\clsDiameterOfBinaryTree.cs" />
     <Compile Include="Easy\clsDivideArrayIntoEqualPairs.cs" />
+    <Compile Include="Easy\clsDuplicateZeros.cs" />
     <Compile Include="Easy\clsFinalPricesWithASpecialDiscountInAShop.cs" />
     <Compile Include="Easy\clsFinalValueOfVariableAfterPerformingOperations.cs" />
     <Compile Include="Easy\clsFindCenterOfStarGraph.cs" />
