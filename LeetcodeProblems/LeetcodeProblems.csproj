@@ -195,6 +195,7 @@
     <Compile Include="Easy\clsUniqueNumberOfOccurrences.cs" />
     <Compile Include="Easy\clsUnivaluedBinaryTree.cs" />
     <Compile Include="Easy\clsValidAnagram.cs" />
+    <Compile Include="Easy\clsValidMountainArray.cs" />
     <Compile Include="Easy\clsValidPalindrome.cs" />
     <Compile Include="Easy\clsValidParentheses.cs" />
     <Compile Include="Easy\OrderedStream.cs" />
