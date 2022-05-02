@@ -155,6 +155,7 @@
     <Compile Include="Easy\clsRemoveOutermostParentheses.cs" />
     <Compile Include="Easy\clsRemovePalindromicSubsequences.cs" />
     <Compile Include="Easy\clsReplaceAllDigitsWithCharacters.cs" />
+    <Compile Include="Easy\clsReplaceElementsWithGreatestElementOnRightSide.cs" />
     <Compile Include="Easy\clsReverseLinkedList.cs" />
     <Compile Include="Easy\clsReversePrefixOfWord.cs" />
     <Compile Include="Easy\clsReverseString.cs" />
