@@ -226,6 +226,7 @@
     <Compile Include="Easy\clsSignOfTheProductOfAnArray.cs" />
     <Compile Include="Medium\clsReverseInteger.cs" />
     <Compile Include="Medium\clsShortestUnsortedContinuousSubarray.cs" />
+    <Compile Include="Medium\clsStringToInteger%28atoi%29.cs" />
     <Compile Include="Medium\clsSumRootToLeafNumbers.cs" />
     <Compile Include="Medium\clsSwapNodesInPairs.cs" />
     <Compile Include="Medium\clsZigzagConversion.cs" />
