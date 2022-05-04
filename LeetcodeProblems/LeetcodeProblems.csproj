@@ -92,6 +92,7 @@
     <Compile Include="Easy\clsDiameterOfBinaryTree.cs" />
     <Compile Include="Easy\clsDivideArrayIntoEqualPairs.cs" />
     <Compile Include="Easy\clsDuplicateZeros.cs" />
+    <Compile Include="Easy\clsExcelSheetColumnNumber.cs" />
     <Compile Include="Easy\clsExcelSheetColumnTitle.cs" />
     <Compile Include="Easy\clsFinalPricesWithASpecialDiscountInAShop.cs" />
     <Compile Include="Easy\clsFinalValueOfVariableAfterPerformingOperations.cs" />
