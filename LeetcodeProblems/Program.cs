@@ -1,4 +1,6 @@
-﻿namespace LeetcodeProblems
+﻿using System;
+
+namespace LeetcodeProblems
 {
     class Program
     {
