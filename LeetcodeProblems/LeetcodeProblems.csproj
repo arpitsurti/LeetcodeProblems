@@ -118,6 +118,7 @@
     <Compile Include="Easy\clsImplementStackUsingQueues.cs" />
     <Compile Include="Easy\clsImplementstrStr.cs" />
     <Compile Include="Easy\clsIncreasingOrderSearchTree.cs" />
+    <Compile Include="Easy\clsIntersectionOfTwoArrays.cs" />
     <Compile Include="Easy\clsIntersectionOfTwoLinkedLists.cs" />
     <Compile Include="Easy\clsInvertBinaryTree.cs" />
     <Compile Include="Easy\clsJewelsAndStones.cs" />
