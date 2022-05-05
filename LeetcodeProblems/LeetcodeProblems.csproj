@@ -86,6 +86,7 @@
     <Compile Include="Easy\clsDefangingAnIPAddress.cs" />
     <Compile Include="Easy\clsDeleteColumnsToMakeSorted.cs" />
     <Compile Include="Easy\clsDeleteNodeInALinkedList.cs" />
+    <Compile Include="Easy\clsDesignHashMap.cs" />
     <Compile Include="Easy\clsDesignHashSet.cs" />
     <Compile Include="Easy\clsDestinationCity.cs" />
     <Compile Include="Easy\clsDetermineColorOfAChessboardSquare.cs" />
@@ -231,6 +232,7 @@
     <Compile Include="Medium\clsRemoveNthNodeFromEndOfList.cs" />
     <Compile Include="Medium\clsReverseInteger.cs" />
     <Compile Include="Medium\clsShortestUnsortedContinuousSubarray.cs" />
+    <Compile Include="Medium\clsSortColors.cs" />
     <Compile Include="Medium\clsStringToInteger%28atoi%29.cs" />
     <Compile Include="Medium\clsSumRootToLeafNumbers.cs" />
     <Compile Include="Medium\clsSwapNodesInPairs.cs" />
