@@ -225,6 +225,7 @@
     <Compile Include="Medium\clsMaxNumberOfKSumPairs.cs" />
     <Compile Include="Medium\clsMergeNodesInBetweenZeros.cs" />
     <Compile Include="Easy\clsSignOfTheProductOfAnArray.cs" />
+    <Compile Include="Medium\clsRemoveNthNodeFromEndOfList.cs" />
     <Compile Include="Medium\clsReverseInteger.cs" />
     <Compile Include="Medium\clsShortestUnsortedContinuousSubarray.cs" />
     <Compile Include="Medium\clsStringToInteger%28atoi%29.cs" />
