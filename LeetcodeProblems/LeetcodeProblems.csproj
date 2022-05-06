@@ -122,6 +122,7 @@
     <Compile Include="Easy\clsIntersectionOfTwoArrays.cs" />
     <Compile Include="Easy\clsIntersectionOfTwoLinkedLists.cs" />
     <Compile Include="Easy\clsInvertBinaryTree.cs" />
+    <Compile Include="Easy\clsIsomorphicStrings.cs" />
     <Compile Include="Easy\clsJewelsAndStones.cs" />
     <Compile Include="Easy\clsKeyboardRow.cs" />
     <Compile Include="Easy\clsKidsWithTheGreatestNumberOfCandies.cs" />
