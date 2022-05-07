@@ -243,6 +243,7 @@
     <Compile Include="Medium\clsStringToInteger%28atoi%29.cs" />
     <Compile Include="Medium\clsSumRootToLeafNumbers.cs" />
     <Compile Include="Medium\clsSwapNodesInPairs.cs" />
+    <Compile Include="Medium\clsValidSudoku.cs" />
     <Compile Include="Medium\clsZigzagConversion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
