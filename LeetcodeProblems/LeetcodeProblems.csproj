@@ -120,6 +120,7 @@
     <Compile Include="Easy\clsImplementstrStr.cs" />
     <Compile Include="Easy\clsIncreasingOrderSearchTree.cs" />
     <Compile Include="Easy\clsIntersectionOfTwoArrays.cs" />
+    <Compile Include="Easy\clsIntersectionOfTwoArraysII.cs" />
     <Compile Include="Easy\clsIntersectionOfTwoLinkedLists.cs" />
     <Compile Include="Easy\clsInvertBinaryTree.cs" />
     <Compile Include="Easy\clsIsomorphicStrings.cs" />
@@ -227,6 +228,7 @@
     <Compile Include="Medium\clsDeepestLeavesSum.cs" />
     <Compile Include="Medium\clsDivideTwoIntegers.cs" />
     <Compile Include="Medium\clsFindFirstAndLastPositionOfElementInSortedArray.cs" />
+    <Compile Include="Medium\clsGroupAnagrams.cs" />
     <Compile Include="Medium\clsLongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="Medium\clsMatrixDiagonalSum.cs" />
     <Compile Include="Medium\clsMaximumProductSubarray.cs" />
