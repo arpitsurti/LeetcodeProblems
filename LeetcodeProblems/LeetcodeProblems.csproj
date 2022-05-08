@@ -53,6 +53,7 @@
     <Compile Include="Easy\clsBaseballGame.cs" />
     <Compile Include="Easy\clsBestTimeToBuyAndSellStock.cs" />
     <Compile Include="Easy\clsBinaryTreeInorderTraversal.cs" />
+    <Compile Include="Easy\clsBinaryTreePaths.cs" />
     <Compile Include="Easy\clsBinaryTreePostorderTraversal.cs" />
     <Compile Include="Easy\clsBinaryTreePreorderTraversal.cs" />
     <Compile Include="Easy\clsBuildAnArrayWithStackOperations.cs" />
