@@ -210,6 +210,7 @@
     <Compile Include="Easy\clsTruncateSentence.cs" />
     <Compile Include="Easy\clsTwoOutOfThree.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
+    <Compile Include="Easy\clsTwoSumIV-InputIsABST.cs" />
     <Compile Include="Easy\clsUncommonWordsFromTwoSentences.cs" />
     <Compile Include="Easy\clsUniqueEmailAddresses.cs" />
     <Compile Include="Easy\clsUniqueMorseCodeWords.cs" />
