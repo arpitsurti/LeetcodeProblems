@@ -221,6 +221,7 @@
     <Compile Include="Hard\clsFirstMissingPositive.cs" />
     <Compile Include="Medium\cls3Sum.cs" />
     <Compile Include="Medium\cls3SumClosest.cs" />
+    <Compile Include="Medium\cls4SumII.cs" />
     <Compile Include="Medium\clsAddTwoNumbers.cs" />
     <Compile Include="Medium\clsAllPathsFromSourceToTarget.cs" />
     <Compile Include="Medium\clsBinaryTreeRightSideView.cs" />
