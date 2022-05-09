@@ -251,6 +251,7 @@
     <Compile Include="Medium\clsRemoveAllAdjacentDuplicatesInStringII.cs" />
     <Compile Include="Medium\clsRemoveNthNodeFromEndOfList.cs" />
     <Compile Include="Medium\clsReverseInteger.cs" />
+    <Compile Include="Medium\clsReverseWordsInAString.cs" />
     <Compile Include="Medium\clsRotateArray.cs" />
     <Compile Include="Medium\clsShortestUnsortedContinuousSubarray.cs" />
     <Compile Include="Medium\clsSortColors.cs" />
