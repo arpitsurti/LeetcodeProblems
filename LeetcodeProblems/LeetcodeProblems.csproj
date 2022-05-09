@@ -240,6 +240,7 @@
     <Compile Include="Medium\clsFindFirstAndLastPositionOfElementInSortedArray.cs" />
     <Compile Include="Medium\clsGroupAnagrams.cs" />
     <Compile Include="Medium\clsInsertDeleteGetRandomO%281%29.cs" />
+    <Compile Include="Medium\clsLetterCombinationsOfAPhoneNumber.cs" />
     <Compile Include="Medium\clsLongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="Medium\clsMatrixDiagonalSum.cs" />
     <Compile Include="Medium\clsMaximumProductSubarray.cs" />
