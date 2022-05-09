@@ -71,6 +71,7 @@
     <Compile Include="Easy\clsClimbingStairs.cs" />
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
     <Compile Include="Easy\clsConsecutiveCharacters.cs" />
+    <Compile Include="Easy\clsConstructStringFromBinaryTree.cs" />
     <Compile Include="Easy\clsContainsDuplicate.cs" />
     <Compile Include="Easy\clsContainsDuplicateII.cs" />
     <Compile Include="Easy\clsConvertBinaryNumberInALinkedListToInteger.cs" />
