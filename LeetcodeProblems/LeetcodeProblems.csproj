@@ -56,6 +56,7 @@
     <Compile Include="Easy\clsBinaryTreePaths.cs" />
     <Compile Include="Easy\clsBinaryTreePostorderTraversal.cs" />
     <Compile Include="Easy\clsBinaryTreePreorderTraversal.cs" />
+    <Compile Include="Easy\clsBinaryTreeTilt.cs" />
     <Compile Include="Easy\clsBuildAnArrayWithStackOperations.cs" />
     <Compile Include="Easy\clsBuildArrayFromPermutation.cs" />
     <Compile Include="Easy\clsCellsInARangeOnAnExcelSheet.cs" />
