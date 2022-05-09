@@ -151,6 +151,7 @@
     <Compile Include="Easy\clsMergeTwoBinaryTrees.cs" />
     <Compile Include="Easy\clsMergeTwoSortedLists.cs" />
     <Compile Include="Easy\clsMiddleOfTheLinkedList.cs" />
+    <Compile Include="Easy\clsMinimumAbsoluteDifferenceInBST.cs" />
     <Compile Include="Easy\clsMinimumDepthOfBinaryTree.cs" />
     <Compile Include="Easy\clsMinimumIndexSumOfTwoLists.cs" />
     <Compile Include="Easy\clsMinimumTimeToTypeWordUsingSpecialTypewriter.cs" />
