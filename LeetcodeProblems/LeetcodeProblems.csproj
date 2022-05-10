@@ -259,6 +259,7 @@
     <Compile Include="Medium\clsRotateImage.cs" />
     <Compile Include="Medium\clsShortestUnsortedContinuousSubarray.cs" />
     <Compile Include="Medium\clsSortColors.cs" />
+    <Compile Include="Medium\clsStringCompression.cs" />
     <Compile Include="Medium\clsStringToInteger%28atoi%29.cs" />
     <Compile Include="Medium\clsSumRootToLeafNumbers.cs" />
     <Compile Include="Medium\clsSwapNodesInPairs.cs" />
