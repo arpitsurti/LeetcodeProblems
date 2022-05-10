@@ -253,6 +253,7 @@
     <Compile Include="Medium\clsReverseInteger.cs" />
     <Compile Include="Medium\clsReverseWordsInAString.cs" />
     <Compile Include="Medium\clsRotateArray.cs" />
+    <Compile Include="Medium\clsRotateImage.cs" />
     <Compile Include="Medium\clsShortestUnsortedContinuousSubarray.cs" />
     <Compile Include="Medium\clsSortColors.cs" />
     <Compile Include="Medium\clsStringToInteger%28atoi%29.cs" />
