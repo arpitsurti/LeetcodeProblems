@@ -114,6 +114,7 @@
     <Compile Include="Easy\clsFindTargetIndicesAfterSortingArray.cs" />
     <Compile Include="Easy\clsFindTheDifference.cs" />
     <Compile Include="Easy\clsFindTheTownJudge.cs" />
+    <Compile Include="Easy\clsFirstBadVersion.cs" />
     <Compile Include="Easy\clsFirstUniqueCharacterInAString.cs" />
     <Compile Include="Easy\clsFizzBuzz.cs" />
     <Compile Include="Easy\clsGenerateAStringWithCharactersThatHaveOddCounts.cs" />
