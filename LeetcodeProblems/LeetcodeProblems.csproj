@@ -271,6 +271,7 @@
     <Compile Include="Medium\clsTopKFrequentElements.cs" />
     <Compile Include="Medium\clsValidateBinarySearchTree.cs" />
     <Compile Include="Medium\clsValidSudoku.cs" />
+    <Compile Include="Medium\clsWordSearch.cs" />
     <Compile Include="Medium\clsZigzagConversion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
