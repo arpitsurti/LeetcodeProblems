@@ -240,6 +240,7 @@
     <Compile Include="Medium\clsBestTimeToBuyAndSellStockII.cs" />
     <Compile Include="Medium\clsBinaryTreeRightSideView.cs" />
     <Compile Include="Medium\clsContainerWithMostWater.cs" />
+    <Compile Include="Medium\clsCountSortedVowelStrings.cs" />
     <Compile Include="Medium\clsDeepestLeavesSum.cs" />
     <Compile Include="Medium\clsDivideTwoIntegers.cs" />
     <Compile Include="Medium\clsFindDuplicateSubtrees.cs" />
@@ -268,6 +269,7 @@
     <Compile Include="Medium\clsSumRootToLeafNumbers.cs" />
     <Compile Include="Medium\clsSwapNodesInPairs.cs" />
     <Compile Include="Medium\clsTopKFrequentElements.cs" />
+    <Compile Include="Medium\clsValidateBinarySearchTree.cs" />
     <Compile Include="Medium\clsValidSudoku.cs" />
     <Compile Include="Medium\clsZigzagConversion.cs" />
     <Compile Include="Program.cs" />
