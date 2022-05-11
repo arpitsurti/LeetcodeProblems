@@ -271,6 +271,7 @@
     <Compile Include="Medium\clsSumRootToLeafNumbers.cs" />
     <Compile Include="Medium\clsSwapNodesInPairs.cs" />
     <Compile Include="Medium\clsTopKFrequentElements.cs" />
+    <Compile Include="Medium\clsUniquePaths.cs" />
     <Compile Include="Medium\clsValidateBinarySearchTree.cs" />
     <Compile Include="Medium\clsValidSudoku.cs" />
     <Compile Include="Medium\clsWordSearch.cs" />
