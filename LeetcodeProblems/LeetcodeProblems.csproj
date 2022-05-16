@@ -139,6 +139,7 @@
     <Compile Include="Easy\clsKthDistinctStringInAnArray.cs" />
     <Compile Include="Easy\clsLeaf-SimilarTrees.cs" />
     <Compile Include="Easy\clsLengthOfLastWord.cs" />
+    <Compile Include="Easy\clsLinkedListCycle.cs" />
     <Compile Include="Easy\clsLongestCommonPrefix.cs" />
     <Compile Include="Easy\clsMajorityElement.cs" />
     <Compile Include="Easy\clsMakeTheStringGreat.cs" />
