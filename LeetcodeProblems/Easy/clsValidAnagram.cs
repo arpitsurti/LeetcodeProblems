@@ -29,6 +29,28 @@ namespace LeetcodeProblems.Easy
     {
         public bool IsAnagram(string s, string t)
         {
+            //APROACH 1 USING ARRAY COUNT
+            if (s.Length != t.Length)
+                return false;
+            int[] charCount = new int[26];
+            for (int i = 0; i < s.Length; i++)
+            {
+                char c = s[i];
+                charCount[c - 'a']++;
+            }
+            for (int i = 0; i < t.Length; i++)
+            {
+                char c = t[i];
+                charCount[c - 'a']--;
+            }
+            for (int i = 0; i < 26; i++)
+            {
+                if (charCount[i] > 0)
+                    return false;
+            }
+            return true;
+            /*
+            APPROACH 2 USING DICTIONARY
             if (s.Length != t.Length)
                 return false;
             Dictionary<char, int> dict = new Dictionary<char, int>();
@@ -47,6 +69,8 @@ namespace LeetcodeProblems.Easy
                     return false;
             }
             return true;
+
+            */
         }
     }
 }
