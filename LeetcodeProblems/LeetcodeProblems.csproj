@@ -248,6 +248,8 @@
     <Compile Include="Medium\clsCountSortedVowelStrings.cs" />
     <Compile Include="Medium\clsDeepestLeavesSum.cs" />
     <Compile Include="Medium\clsDivideTwoIntegers.cs" />
+    <Compile Include="Medium\clsEncodeAndDecodeTinyURL.cs" />
+    <Compile Include="Medium\clsExecutionOfAllSuffixInstructionsStayingInAGrid.cs" />
     <Compile Include="Medium\clsFindDuplicateSubtrees.cs" />
     <Compile Include="Medium\clsFindFirstAndLastPositionOfElementInSortedArray.cs" />
     <Compile Include="Medium\clsFindPeakElement.cs" />
