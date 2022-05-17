@@ -250,6 +250,7 @@
     <Compile Include="Medium\clsDivideTwoIntegers.cs" />
     <Compile Include="Medium\clsFindDuplicateSubtrees.cs" />
     <Compile Include="Medium\clsFindFirstAndLastPositionOfElementInSortedArray.cs" />
+    <Compile Include="Medium\clsGenerateParentheses.cs" />
     <Compile Include="Medium\clsGroupAnagrams.cs" />
     <Compile Include="Medium\clsHouseRobber.cs" />
     <Compile Include="Medium\clsInsertDeleteGetRandomO%281%29.cs" />
@@ -276,6 +277,7 @@
     <Compile Include="Medium\clsSumRootToLeafNumbers.cs" />
     <Compile Include="Medium\clsSwapNodesInPairs.cs" />
     <Compile Include="Medium\clsTopKFrequentElements.cs" />
+    <Compile Include="Medium\clsTwoSumII-InputArrayIsSorted.cs" />
     <Compile Include="Medium\clsUniquePaths.cs" />
     <Compile Include="Medium\clsValidateBinarySearchTree.cs" />
     <Compile Include="Medium\clsValidSudoku.cs" />
