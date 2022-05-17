@@ -17,20 +17,15 @@ namespace LeetcodeProblems.Medium
         For example, if s = "()))", you can insert an opening parenthesis to be "(()))" or a closing parenthesis to be "())))".
         Return the minimum number of moves required to make s valid.
 
- 
-
         Example 1:
-
         Input: s = "())"
         Output: 1
-        Example 2:
 
+        Example 2:
         Input: s = "((("
         Output: 3
  
-
         Constraints:
-
         1 <= s.length <= 1000
         s[i] is either '(' or ')'.
     */
