@@ -250,6 +250,7 @@
     <Compile Include="Medium\clsDivideTwoIntegers.cs" />
     <Compile Include="Medium\clsFindDuplicateSubtrees.cs" />
     <Compile Include="Medium\clsFindFirstAndLastPositionOfElementInSortedArray.cs" />
+    <Compile Include="Medium\clsFindPeakElement.cs" />
     <Compile Include="Medium\clsGenerateParentheses.cs" />
     <Compile Include="Medium\clsGroupAnagrams.cs" />
     <Compile Include="Medium\clsHouseRobber.cs" />
@@ -263,6 +264,7 @@
     <Compile Include="Medium\clsMergeNodesInBetweenZeros.cs" />
     <Compile Include="Easy\clsSignOfTheProductOfAnArray.cs" />
     <Compile Include="Medium\clsRemoveAllAdjacentDuplicatesInStringII.cs" />
+    <Compile Include="Medium\clsRemoveDuplicatesFromSortedArrayII.cs" />
     <Compile Include="Medium\clsRemoveKDigits.cs" />
     <Compile Include="Medium\clsRemoveNthNodeFromEndOfList.cs" />
     <Compile Include="Medium\clsReverseInteger.cs" />
