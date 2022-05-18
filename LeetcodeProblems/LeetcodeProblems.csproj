@@ -239,6 +239,7 @@
     <Compile Include="Easy\clsValidParentheses.cs" />
     <Compile Include="Easy\OrderedStream.cs" />
     <Compile Include="Hard\clsFirstMissingPositive.cs" />
+    <Compile Include="Hard\clsMonotonicArray.cs" />
     <Compile Include="Medium\cls3Sum.cs" />
     <Compile Include="Medium\cls3SumClosest.cs" />
     <Compile Include="Medium\cls4SumII.cs" />
