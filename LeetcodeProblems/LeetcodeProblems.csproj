@@ -243,6 +243,7 @@
     <Compile Include="Medium\clsAddTwoNumbers.cs" />
     <Compile Include="Medium\clsAllPathsFromSourceToTarget.cs" />
     <Compile Include="Medium\clsBestTimeToBuyAndSellStockII.cs" />
+    <Compile Include="Medium\clsBinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="Medium\clsBinaryTreeRightSideView.cs" />
     <Compile Include="Medium\clsContainerWithMostWater.cs" />
     <Compile Include="Medium\clsCountSortedVowelStrings.cs" />
