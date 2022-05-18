@@ -271,6 +271,7 @@
     <Compile Include="Easy\clsSignOfTheProductOfAnArray.cs" />
     <Compile Include="Medium\clsMinimumAddToMakeParenthesesValid.cs" />
     <Compile Include="Medium\clsNumberOfLaserBeamsInABank.cs" />
+    <Compile Include="Medium\clsProductOfArrayExceptSelf.cs" />
     <Compile Include="Medium\clsRectangleArea.cs" />
     <Compile Include="Medium\clsRemoveAllAdjacentDuplicatesInStringII.cs" />
     <Compile Include="Medium\clsRemoveDuplicatesFromSortedArrayII.cs" />
