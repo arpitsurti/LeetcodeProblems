@@ -33,26 +33,18 @@ namespace LeetcodeProblems.Easy
         public bool IsValid(string s)
         {
             Stack<char> st = new Stack<char>();
-            st.Push(s[0]);
-            int index = 1;
-            while (index < s.Length)
+            for (int i = 0; i < s.Length; i++)
             {
-                if (st.Count() == 0)
-                {
-                    st.Push(s[index++]);//missed index ++;
-                    continue;
-                }
-                if (s[index] == ')' && st.Peek() == '(')
+                if (s[i] == ')' && st.Count > 0 && st.Peek() == '(')
                     st.Pop();
-                else if (s[index] == ']' && st.Peek() == '[')
+                else if (s[i] == '}' && st.Count > 0 && st.Peek() == '{')
                     st.Pop();
-                else if (s[index] == '}' && st.Peek() == '{')
+                else if (s[i] == ']' && st.Count > 0 && st.Peek() == '[')
                     st.Pop();
                 else
-                    st.Push(s[index]);
-                index++;
+                    st.Push(s[i]);
             }
-            return st.Count() == 0;
+            return st.Count == 0;
         }
     }
 }
