@@ -28,22 +28,25 @@ namespace LeetcodeProblems.Easy
     {
         public string ReverseWords(string s)
         {
-            string[] strArr = s.Split(' ');
-            for (int i = 0; i < strArr.Length; i++)
+            string[] str = s.Split(' ');
+            for (int i = 0; i < str.Length; i++)
             {
-                strArr[i] = reverse(strArr[i]);
+                str[i] = reverse(str[i]);
             }
-            return string.Join(" ", strArr);
+            return string.Join(" ", str);
         }
 
         private string reverse(string input)
         {
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < input.Length; i++)
+            int endIndex = input.Length - 1;
+            char[] ch = input.ToCharArray();
+            for (int i = 0; i < ch.Length / 2; i++)
             {
-                sb.Insert(0, input[i]);
+                char temp = ch[i];
+                ch[i] = ch[endIndex];
+                ch[endIndex--] = temp;
             }
-            return sb.ToString();
+            return new string(ch);
         }
     }
 }
