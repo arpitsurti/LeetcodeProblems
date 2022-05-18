@@ -83,6 +83,7 @@
     <Compile Include="Easy\clsCountItemsMatchingARule.cs" />
     <Compile Include="Easy\clsCountNegativeNumbersInASortedMatrix.cs" />
     <Compile Include="Easy\clsCountNumberOfPairsWithAbsoluteDifferenceK.cs" />
+    <Compile Include="Easy\clsCountPrefixesOfAGivenString.cs" />
     <Compile Include="Easy\clsCountTheNumberOfConsistentStrings.cs" />
     <Compile Include="Easy\clsCreateTargetArrayInTheGivenOrder.cs" />
     <Compile Include="Easy\clsDecodeXORedArray.cs" />
@@ -234,6 +235,7 @@
     <Compile Include="Easy\clsValidAnagram.cs" />
     <Compile Include="Easy\clsValidMountainArray.cs" />
     <Compile Include="Easy\clsValidPalindrome.cs" />
+    <Compile Include="Easy\clsValidPalindromeII.cs" />
     <Compile Include="Easy\clsValidParentheses.cs" />
     <Compile Include="Easy\OrderedStream.cs" />
     <Compile Include="Hard\clsFirstMissingPositive.cs" />
