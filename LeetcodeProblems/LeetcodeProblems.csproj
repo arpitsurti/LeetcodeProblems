@@ -237,6 +237,7 @@
     <Compile Include="Easy\clsValidPalindrome.cs" />
     <Compile Include="Easy\clsValidPalindromeII.cs" />
     <Compile Include="Easy\clsValidParentheses.cs" />
+    <Compile Include="Easy\clsValidPerfectSquare.cs" />
     <Compile Include="Easy\OrderedStream.cs" />
     <Compile Include="Hard\clsFirstMissingPositive.cs" />
     <Compile Include="Hard\clsMonotonicArray.cs" />

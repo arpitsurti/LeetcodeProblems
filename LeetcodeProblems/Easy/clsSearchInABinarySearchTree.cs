@@ -33,7 +33,7 @@ namespace LeetcodeProblems.Easy
                 return null;
             if (root.val == val)
                 return root;
-            return SearchBST(root.left, val) ?? SearchBST(root.right, val);
+            return root.val < val ? SearchBST(root.right, val) : SearchBST(root.left, val);
         }
     }
 }
