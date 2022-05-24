@@ -163,6 +163,7 @@
     <Compile Include="Easy\clsMinimumDepthOfBinaryTree.cs" />
     <Compile Include="Easy\clsMinimumIndexSumOfTwoLists.cs" />
     <Compile Include="Easy\clsMinimumTimeToTypeWordUsingSpecialTypewriter.cs" />
+    <Compile Include="Easy\clsMinStack.cs" />
     <Compile Include="Easy\clsMissingNumber.cs" />
     <Compile Include="Easy\clsMostCommonWord.cs" />
     <Compile Include="Easy\clsMoveZeroes.cs" />
