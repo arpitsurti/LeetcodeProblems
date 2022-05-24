@@ -135,6 +135,7 @@
     <Compile Include="Easy\clsIntersectionOfTwoLinkedLists.cs" />
     <Compile Include="Easy\clsInvertBinaryTree.cs" />
     <Compile Include="Easy\clsIsomorphicStrings.cs" />
+    <Compile Include="Easy\clsIsSubsequence.cs" />
     <Compile Include="Easy\clsJewelsAndStones.cs" />
     <Compile Include="Easy\clsKeyboardRow.cs" />
     <Compile Include="Easy\clsKidsWithTheGreatestNumberOfCandies.cs" />
