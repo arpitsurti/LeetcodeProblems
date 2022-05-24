@@ -175,6 +175,7 @@
     <Compile Include="Easy\clsPalindromeLinkedList.cs" />
     <Compile Include="Easy\clsPalindromeNumber.cs" />
     <Compile Include="Easy\clsPascal%27sTriangle.cs" />
+    <Compile Include="Easy\clsPascal%27sTriangleII.cs" />
     <Compile Include="Easy\clsPathSum.cs" />
     <Compile Include="Easy\clsPlusOne.cs" />
     <Compile Include="Easy\clsRangeSumOfBST.cs" />
