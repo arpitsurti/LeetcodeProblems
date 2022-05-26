@@ -26,9 +26,9 @@ namespace LeetcodeProblems.Easy
     {
         public bool IsPerfectSquare(int num)
         {
-            if (num < 2)
+            if (num == 1)
                 return true;
-            long left = 2;
+            long left = 1;///Long is important here as we are dealing with multiplications
             long right = num / 2;
             while (left <= right)
             {
