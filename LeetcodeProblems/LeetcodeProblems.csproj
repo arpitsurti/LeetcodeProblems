@@ -278,6 +278,7 @@
     <Compile Include="Medium\clsLongestPalindromicSubstring.cs" />
     <Compile Include="Medium\clsLongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="Medium\clsMatrixDiagonalSum.cs" />
+    <Compile Include="Medium\clsMaxConsecutiveOnesIII.cs" />
     <Compile Include="Medium\clsMaximumBinaryTree.cs" />
     <Compile Include="Medium\clsMaximumProductSubarray.cs" />
     <Compile Include="Medium\clsMaxNumberOfKSumPairs.cs" />
