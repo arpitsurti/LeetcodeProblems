@@ -47,7 +47,6 @@ namespace LeetcodeProblems.Medium
                 eCount = eCount + iCount + oCount + uCount;
                 iCount = iCount + oCount + uCount;
                 oCount = oCount + uCount;
-                uCount = uCount;
                 n--;
             }
             return aCount + eCount + iCount + oCount + uCount;

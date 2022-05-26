@@ -55,5 +55,9 @@ namespace LeetcodeProblems.Easy
             }
             return -1;
         }
+
+        private int guess(int num) { return 0; }
     }
+
+    
 }
