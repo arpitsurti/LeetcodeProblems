@@ -102,6 +102,7 @@
     <Compile Include="Easy\clsDiameterOfBinaryTree.cs" />
     <Compile Include="Easy\clsDivideArrayIntoEqualPairs.cs" />
     <Compile Include="Easy\clsDuplicateZeros.cs" />
+    <Compile Include="Easy\clsElementAppearingMoreThan25PercentInSortedArray.cs" />
     <Compile Include="Easy\clsExcelSheetColumnNumber.cs" />
     <Compile Include="Easy\clsExcelSheetColumnTitle.cs" />
     <Compile Include="Easy\clsFibonacciNumber.cs" />
