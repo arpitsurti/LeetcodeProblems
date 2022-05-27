@@ -124,6 +124,7 @@
     <Compile Include="Easy\clsFirstBadVersion.cs" />
     <Compile Include="Easy\clsFirstUniqueCharacterInAString.cs" />
     <Compile Include="Easy\clsFizzBuzz.cs" />
+    <Compile Include="Easy\clsFlippingAnImage.cs" />
     <Compile Include="Easy\clsGenerateAStringWithCharactersThatHaveOddCounts.cs" />
     <Compile Include="Easy\clsGoalParserInterpretation.cs" />
     <Compile Include="Easy\clsGoatLatin.cs" />
