@@ -179,6 +179,7 @@
     <Compile Include="Easy\clsN-thTribonacciNumber.cs" />
     <Compile Include="Easy\clsNextGreaterElementI.cs" />
     <Compile Include="Easy\clsNumberOfGoodPairs.cs" />
+    <Compile Include="Easy\clsNumberOfStepsToReduceANumberToZero.cs" />
     <Compile Include="Easy\clsNumberOfStringsThatAppearAsSubstringsInWord.cs" />
     <Compile Include="Easy\clsNumberOfStudentsDoingHomeworkAtAGivenTime.cs" />
     <Compile Include="Easy\clsPalindromeLinkedList.cs" />
@@ -290,7 +291,6 @@
     <Compile Include="Medium\clsMinimumAddToMakeParenthesesValid.cs" />
     <Compile Include="Medium\clsNumberOfIslands.cs" />
     <Compile Include="Medium\clsNumberOfLaserBeamsInABank.cs" />
-    <Compile Include="Medium\clsPermutations.cs" />
     <Compile Include="Medium\clsProductOfArrayExceptSelf.cs" />
     <Compile Include="Medium\clsRectangleArea.cs" />
     <Compile Include="Medium\clsRemoveAllAdjacentDuplicatesInStringII.cs" />
