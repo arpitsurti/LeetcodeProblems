@@ -42,10 +42,13 @@ namespace LeetcodeProblems.Easy
     {
         public int NumberOfSteps(int num)
         {
+            //USING RECURSION APPROACH
             if (num == 0)
                 return 0;
             return NumberOfSteps(num % 2 == 0 ? num / 2 : num - 1) + 1;
-            /*int output = 0;
+
+            /* USING ITERATIVE APPROACH
+            int output = 0;
             while(num > 0)
             {
                 if(num % 2 == 0)
