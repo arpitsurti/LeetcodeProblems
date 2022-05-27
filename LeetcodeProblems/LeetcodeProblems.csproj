@@ -222,6 +222,7 @@
     <Compile Include="Easy\clsShuffleTheArray.cs" />
     <Compile Include="Easy\clsSingleNumber.cs" />
     <Compile Include="Easy\clsSmallestIndexWithEqualValue.cs" />
+    <Compile Include="Easy\clsSortArrayByIncreasingFrequency.cs" />
     <Compile Include="Easy\clsSortArrayByParity.cs" />
     <Compile Include="Easy\clsSortingTheSentence.cs" />
     <Compile Include="Easy\clsSplitAStringInBalancedStrings.cs" />
