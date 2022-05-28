@@ -41,8 +41,8 @@ namespace LeetcodeProblems.Easy
             {
                 sum += nums[i];
             }
-            int n = nums.Length + 1;
-            return ((n * (n - 1)) / 2) - sum;
+            int n = nums.Length;
+            return ((n * (n + 1)) / 2) - sum;
             /*
             HashSet<int> hs = new HashSet<int>();
             int n = nums.Length;
