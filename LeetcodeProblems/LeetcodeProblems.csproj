@@ -236,6 +236,7 @@
     <Compile Include="Easy\clsSubstringsOfSizeThreeWithDistinctCharacters.cs" />
     <Compile Include="Easy\clsSubtractTheProductAndSumOfDigitsOfAnInteger.cs" />
     <Compile Include="Easy\clsSumOfAllOddLengthSubarrays.cs" />
+    <Compile Include="Easy\clsSumOfAllSubsetXORTotals.cs" />
     <Compile Include="Easy\clsSumOfLeftLeaves.cs" />
     <Compile Include="Easy\clsSumOfRootToLeafBinaryNumbers.cs" />
     <Compile Include="Easy\clsSumOfUniqueElements.cs" />
