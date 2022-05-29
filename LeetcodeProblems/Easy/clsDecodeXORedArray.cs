@@ -31,13 +31,13 @@ namespace LeetcodeProblems.Easy
     {
         public int[] Decode(int[] encoded, int first)
         {
-            int[] output = new int[encoded.Length + 1];
-            output[0] = first;
-            for (int i = 1; i < output.Length; i++)
+            int[] arr = new int[encoded.Length + 1];
+            arr[0] = first;
+            for (int i = 0; i < encoded.Length; i++)
             {
-                output[i] = encoded[i - 1] ^ output[i - 1];
+                arr[i + 1] = arr[i] ^ encoded[i];
             }
-            return output;
+            return arr;
         }
     }
 }
