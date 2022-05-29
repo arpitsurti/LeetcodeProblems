@@ -291,6 +291,7 @@
     <Compile Include="Medium\clsMatrixDiagonalSum.cs" />
     <Compile Include="Medium\clsMaxConsecutiveOnesIII.cs" />
     <Compile Include="Medium\clsMaximumBinaryTree.cs" />
+    <Compile Include="Medium\clsMaximumProductOfWordLengths.cs" />
     <Compile Include="Medium\clsMaximumProductSubarray.cs" />
     <Compile Include="Medium\clsMaxNumberOfKSumPairs.cs" />
     <Compile Include="Medium\clsMergeNodesInBetweenZeros.cs" />
