@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Medium
 {
     /*318. Maximum Product of Word Lengths
+     *** REF ***
      * Given a string array words, return the maximum value of length(word[i]) * length(word[j]) where the two words do not share common letters. If no such two words exist, return 0.
 
         Example 1:
@@ -33,35 +34,61 @@ namespace LeetcodeProblems.Medium
     {
         public int MaxProduct(string[] words)
         {
-            int currLen = 0;
-            int maxLeng = 0;
+            //BIT MANIPULATION
+            int[] arr = new int[words.Length];
+            int output = 0;
+            for (int i = 0; i < words.Length; i++)
+            {
+                foreach (var c in words[i])
+                {
+                    arr[i] |= 1 << c - 'a';
+                }
+            }
             for (int i = 0; i < words.Length; i++)
             {
                 for (int j = i + 1; j < words.Length; j++)
                 {
-                    if (!CheckCommonChars(words[i], words[j]))
+                    if ((arr[i] & arr[j]) == 0)
                     {
-                        currLen = words[i].Length * words[j].Length;
-                        maxLeng = Math.Max(currLen, maxLeng);
+                        output = Math.Max(output, words[i].Length * words[j].Length);
                     }
                 }
             }
-            return maxLeng;
-        }
+            return output;
 
-        private bool CheckCommonChars(string str1, string str2)
-        {
-            int[] freq = new int[26];
-            for (int i = 0; i < str1.Length; i++)
-            {
-                freq[str1[i] - 'a']++;
+            //BRUTEFORCE
+            /*
+                int currLen = 0;
+                int maxLeng = 0;
+                for (int i = 0; i < words.Length; i++)
+                {
+                    for (int j = i + 1; j < words.Length; j++)
+                    {
+                        if (!CheckCommonChars(words[i], words[j]))
+                        {
+                            currLen = words[i].Length * words[j].Length;
+                            maxLeng = Math.Max(currLen, maxLeng);
+                        }
+                    }
+                }
+                return maxLeng;
             }
-            for (int i = 0; i < str2.Length; i++)
+
+            private bool CheckCommonChars(string str1, string str2)
             {
-                if (freq[str2[i] - 'a'] > 0)
-                    return true;
+                int[] freq = new int[26];
+                for (int i = 0; i < str1.Length; i++)
+                {
+                    freq[str1[i] - 'a']++;
+                }
+                for (int i = 0; i < str2.Length; i++)
+                {
+                    if (freq[str2[i] - 'a'] > 0)
+                        return true;
+                }
+                return false;
             }
-            return false;
+            */
         }
     }
 }
