@@ -267,6 +267,7 @@
     <Compile Include="Easy\clsValidParentheses.cs" />
     <Compile Include="Easy\clsValidPerfectSquare.cs" />
     <Compile Include="Easy\clsXOROperationInAnArray.cs" />
+    <Compile Include="Easy\clsHammingDistance.cs" />
     <Compile Include="Easy\OrderedStream.cs" />
     <Compile Include="Hard\clsFirstMissingPositive.cs" />
     <Compile Include="Hard\clsLongestValidParentheses.cs" />
