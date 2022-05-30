@@ -83,6 +83,7 @@
     <Compile Include="Easy\clsConvertSortedArrayToBinarySearchTree.cs" />
     <Compile Include="Easy\clsCountCommonWordsWithOneOccurrence.cs" />
     <Compile Include="Easy\clsCountEqualAndDivisiblePairsInAnArray.cs" />
+    <Compile Include="Easy\clsCountingBits.cs" />
     <Compile Include="Easy\clsCountingWordsWithAGivenPrefix.cs" />
     <Compile Include="Easy\clsCountItemsMatchingARule.cs" />
     <Compile Include="Easy\clsCountNegativeNumbersInASortedMatrix.cs" />
