@@ -293,6 +293,7 @@
     <Compile Include="Medium\clsHouseRobber.cs" />
     <Compile Include="Medium\clsInsertDeleteGetRandomO%281%29.cs" />
     <Compile Include="Medium\clsKthLargestElementInAnArray.cs" />
+    <Compile Include="Medium\clsKthSmallestElementInABST.cs" />
     <Compile Include="Medium\clsLetterCombinationsOfAPhoneNumber.cs" />
     <Compile Include="Medium\clsLongestConsecutiveSequence.cs" />
     <Compile Include="Medium\clsLongestPalindromicSubstring.cs" />
