@@ -116,6 +116,7 @@
     <Compile Include="Easy\clsFindCenterOfStarGraph.cs" />
     <Compile Include="Easy\clsFindCommonCharacters.cs" />
     <Compile Include="Easy\clsLongestNiceSubstring.cs" />
+    <Compile Include="Easy\clsMinimumAbsoluteDifference.cs" />
     <Compile Include="Easy\clsNumberComplement.cs" />
     <Compile Include="Easy\clsFindFirstPalindromicStringInTheArray.cs" />
     <Compile Include="Easy\clsFindIfPathExistsInGraph.cs" />
