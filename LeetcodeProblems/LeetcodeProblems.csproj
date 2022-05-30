@@ -111,6 +111,7 @@
     <Compile Include="Easy\clsFindAllNumbersDisappearedInAnArray.cs" />
     <Compile Include="Easy\clsFindCenterOfStarGraph.cs" />
     <Compile Include="Easy\clsFindCommonCharacters.cs" />
+    <Compile Include="Easy\clsNumberComplement.cs" />
     <Compile Include="Easy\clsFindFirstPalindromicStringInTheArray.cs" />
     <Compile Include="Easy\clsFindIfPathExistsInGraph.cs" />
     <Compile Include="Easy\clsFindLengthOfLCIS.cs" />
