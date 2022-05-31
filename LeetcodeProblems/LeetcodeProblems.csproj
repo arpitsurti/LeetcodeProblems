@@ -282,6 +282,7 @@
     <Compile Include="Medium\clsBestTimeToBuyAndSellStockII.cs" />
     <Compile Include="Medium\clsBinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="Medium\clsBinaryTreeRightSideView.cs" />
+    <Compile Include="Medium\clsCheckIfAStringContainsAllBinaryCodesOfSizeK.cs" />
     <Compile Include="Medium\clsContainerWithMostWater.cs" />
     <Compile Include="Medium\clsCountSortedVowelStrings.cs" />
     <Compile Include="Medium\clsDeepestLeavesSum.cs" />
