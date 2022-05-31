@@ -96,6 +96,7 @@
     <Compile Include="Easy\clsDecompressRun-LengthEncodedList.cs" />
     <Compile Include="Easy\clsDecryptStringFromAlphabetToIntegerMapping.cs" />
     <Compile Include="Easy\clsDefangingAnIPAddress.cs" />
+    <Compile Include="Easy\clsDegreeOfAnArray.cs" />
     <Compile Include="Easy\clsDeleteColumnsToMakeSorted.cs" />
     <Compile Include="Easy\clsDeleteNodeInALinkedList.cs" />
     <Compile Include="Easy\clsDesignHashMap.cs" />
