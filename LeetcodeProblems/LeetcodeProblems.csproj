@@ -319,6 +319,7 @@
     <Compile Include="Medium\clsNumberOfLaserBeamsInABank.cs" />
     <Compile Include="Medium\clsPartitionArrayAccordingToGivenPivot.cs" />
     <Compile Include="Medium\clsProductOfArrayExceptSelf.cs" />
+    <Compile Include="Medium\clsRearrangeArrayElementsBySign.cs" />
     <Compile Include="Medium\clsRectangleArea.cs" />
     <Compile Include="Medium\clsRemoveAllAdjacentDuplicatesInStringII.cs" />
     <Compile Include="Medium\clsRemoveDuplicatesFromSortedArrayII.cs" />
