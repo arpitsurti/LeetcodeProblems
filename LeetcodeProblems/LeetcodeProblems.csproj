@@ -296,6 +296,7 @@
     <Compile Include="Medium\clsFindFirstAndLastPositionOfElementInSortedArray.cs" />
     <Compile Include="Medium\clsFindPeakElement.cs" />
     <Compile Include="Medium\clsFindTheDuplicateNumber.cs" />
+    <Compile Include="Medium\clsFindTriangularSumOfAnArray.cs" />
     <Compile Include="Medium\clsGenerateParentheses.cs" />
     <Compile Include="Medium\clsGroupAnagrams.cs" />
     <Compile Include="Medium\clsHouseRobber.cs" />
