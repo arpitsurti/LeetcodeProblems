@@ -41,6 +41,18 @@ namespace LeetcodeProblems.Medium
     {
         public int[] TwoSum(int[] numbers, int target)
         {
+            /*APPROACH 1 TIME COMPLEXITY O(n) AND SPACE COMPLEXITY O(n)
+             * Dictionary<int, int> dict = new Dictionary<int, int>();
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (dict.ContainsKey(target - numbers[i]))
+                    return new int[] { dict[target - numbers[i]], i + 1 };
+                if (!dict.ContainsKey(numbers[i]))
+                    dict.Add(numbers[i], i + 1);
+            }
+            return null;
+            */
+            //APPROACH 2 TIME COMPLEXITY O(n) AND SPACE COMPLEXITY O(1)
             int left = 0;
             int right = numbers.Length - 1;
             while (left < right)
