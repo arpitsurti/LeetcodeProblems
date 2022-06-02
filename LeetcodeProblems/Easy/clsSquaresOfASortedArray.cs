@@ -30,21 +30,20 @@ namespace LeetcodeProblems.Easy
     {
         public int[] SortedSquares(int[] nums)
         {
-            int start = 0;
-            int end = nums.Length - 1;
+            int right = nums.Length - 1;
+            int left = 0;
             int[] output = new int[nums.Length];
-            int index = nums.Length - 1;
-            while (index >= 0)
+            for (int i = nums.Length - 1; i >= 0; i--)
             {
-                if (Math.Abs(nums[start]) < Math.Abs(nums[end]))
+                if (Math.Abs(nums[left]) < Math.Abs(nums[right]))
                 {
-                    output[index--] = nums[end] * nums[end];
-                    end--;
+                    output[i] = nums[right] * nums[right];
+                    right--;
                 }
                 else
                 {
-                    output[index--] = nums[start] * nums[start];
-                    start++;
+                    output[i] = nums[left] * nums[left];
+                    left++;
                 }
             }
             return output;
