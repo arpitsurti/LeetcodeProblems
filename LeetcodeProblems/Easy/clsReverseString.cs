@@ -34,5 +34,22 @@ namespace LeetcodeProblems.Easy
                 s[endIndex - i] = temp;
             }
         }
+
+        /*USING RECURSION
+        public void ReverseString(char[] s)
+        {
+            recusion(s, 0, s.Length - 1);
+        }
+
+        private void recusion(char[] s, int left, int right)
+        {
+            if (left > right)
+                return;
+            char temp = s[left];
+            s[left] = s[right];
+            s[right] = temp;
+            recusion(s, left + 1, right - 1);
+        }
+        */
     }
 }
