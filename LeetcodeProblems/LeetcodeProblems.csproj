@@ -256,6 +256,7 @@
     <Compile Include="Easy\clsThirdMaximumNumber.cs" />
     <Compile Include="Easy\clsTimeNeededToBuyTickets.cs" />
     <Compile Include="Easy\clsToLowerCase.cs" />
+    <Compile Include="Easy\clsTransposeMatrix.cs" />
     <Compile Include="Easy\clsTruncateSentence.cs" />
     <Compile Include="Easy\clsTwoOutOfThree.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
