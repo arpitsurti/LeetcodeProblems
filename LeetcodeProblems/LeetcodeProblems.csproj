@@ -290,6 +290,7 @@
     <Compile Include="Medium\clsContainerWithMostWater.cs" />
     <Compile Include="Medium\clsCountSortedVowelStrings.cs" />
     <Compile Include="Medium\clsDeepestLeavesSum.cs" />
+    <Compile Include="Medium\clsDeleteLeavesWithAGivenValue.cs" />
     <Compile Include="Medium\clsDivideTwoIntegers.cs" />
     <Compile Include="Medium\clsEncodeAndDecodeTinyURL.cs" />
     <Compile Include="Medium\clsExecutionOfAllSuffixInstructionsStayingInAGrid.cs" />
