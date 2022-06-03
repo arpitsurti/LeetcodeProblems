@@ -71,6 +71,7 @@
     <Compile Include="Easy\clsCheckIfAWordOccursAsAPrefixOfAnyWordInASentence.cs" />
     <Compile Include="Easy\clsCheckIfNAndItsDoubleExist.cs" />
     <Compile Include="Easy\clsCheckIfNumbersAreAscendingInASentence.cs" />
+    <Compile Include="Easy\clsCheckIfOneStringSwapCanMakeStringsEqual.cs" />
     <Compile Include="Easy\clsCheckIfTheSentenceIsPangram.cs" />
     <Compile Include="Easy\clsCheckIfTwoStringArraysAreEquivalent.cs" />
     <Compile Include="Easy\clsCheckIfWordEqualsSummationOfTwoWords.cs" />
