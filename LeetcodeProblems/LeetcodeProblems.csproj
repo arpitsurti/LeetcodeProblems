@@ -322,6 +322,7 @@
     <Compile Include="Medium\clsNumberOfIslands.cs" />
     <Compile Include="Medium\clsNumberOfLaserBeamsInABank.cs" />
     <Compile Include="Medium\clsPartitionArrayAccordingToGivenPivot.cs" />
+    <Compile Include="Medium\clsPermutationInString.cs" />
     <Compile Include="Medium\clsProductOfArrayExceptSelf.cs" />
     <Compile Include="Medium\clsRearrangeArrayElementsBySign.cs" />
     <Compile Include="Medium\clsRectangleArea.cs" />
