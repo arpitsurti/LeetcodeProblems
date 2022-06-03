@@ -31,7 +31,29 @@ namespace LeetcodeProblems.Medium
         0 <= s.length <= 5 * 104
         s consists of English letters, digits, symbols and spaces.
     */
-    class clsLongestSubstringWithoutRepeatingCharacters
+    public class clsLongestSubstringWithoutRepeatingCharacters
     {
+        public int LengthOfLongestSubstring(string s)
+        {
+            HashSet<char> hs = new HashSet<char>();
+            int maxLength = 0;
+            int pointer1 = 0;
+            int pointer2 = 0;
+            while (pointer2 < s.Length)
+            {
+                if (!hs.Contains(s[pointer2]))
+                {
+                    hs.Add(s[pointer2]);
+                    pointer2++;
+                    maxLength = Math.Max(maxLength, hs.Count);
+                }
+                else
+                {
+                    hs.Remove(s[pointer1]);
+                    pointer1++;
+                }
+            }
+            return maxLength;
+        }
     }
 }
