@@ -39,7 +39,7 @@ namespace LeetcodeProblems.Easy
             {
                 if (prices[i] < minValue)
                     minValue = prices[i];
-                else if (prices[i] - minValue > profit)
+                if (prices[i] - minValue > profit)
                     profit = prices[i] - minValue;
             }
             return profit;
