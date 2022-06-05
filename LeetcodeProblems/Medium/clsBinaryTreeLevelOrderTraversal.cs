@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Medium
 {
     /*102. Binary Tree Level Order Traversal
-     
      * Given the root of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
 
         Example 1:
@@ -31,6 +30,29 @@ namespace LeetcodeProblems.Medium
     {
         public IList<IList<int>> LevelOrder(TreeNode root)
         {
+            //APPROACH 1
+            IList<IList<int>> lstResult = new List<IList<int>>();
+            if (root == null)
+                return lstResult;
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+            queue.Enqueue(root);
+            while (queue.Count != 0)
+            {
+                int size = queue.Count;
+                List<int> lstCurr = new List<int>();
+                for (int i = 0; i < size; i++)
+                {
+                    TreeNode next = queue.Dequeue();
+                    lstCurr.Add(next.val);
+                    if (next.left != null)
+                        queue.Enqueue(next.left);
+                    if (next.right != null)
+                        queue.Enqueue(next.right);
+                }
+                lstResult.Add(lstCurr);
+            }
+            return lstResult;
+            /* APPROACH 2
             IList<IList<int>> lstResult = new List<IList<int>>();
             Queue<TreeNode> queue = new Queue<TreeNode>();
             if (root == null)
@@ -58,6 +80,7 @@ namespace LeetcodeProblems.Medium
                 }
             }
             return lstResult;
+            */
         }
     }
 }
