@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Easy
 {
     /*118. Pascal's Triangle
-     
      * Given an integer numRows, return the first numRows of Pascal's triangle.
 
         In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
@@ -57,5 +56,35 @@ namespace LeetcodeProblems.Easy
             }
             return output;
         }
+
+        /*
+         * USING RECURSION
+            public IList<IList<int>> Generate(int numRows) {
+                IList<IList<int>> lstResult = new List<IList<int>>();
+                Generate(numRows, lstResult);
+                return lstResult;
+            }
+    
+            private void Generate(int numRows, IList<IList<int>> lstResult)
+            {
+                IList<int> lstCurrent = new List<int>();
+                if (numRows == 1)
+                {
+                    lstCurrent.Add(1);
+                    lstResult.Add(lstCurrent);
+                    return;
+                }
+                Generate(numRows - 1, lstResult);
+                IList<int> lstPrevious = lstResult[numRows - 2];
+                for (int i = 1; i <= numRows; i++)
+                {
+                    if (i == 1 || i == numRows)
+                        lstCurrent.Add(1);
+                    else
+                        lstCurrent.Add(lstPrevious[i - 1] + lstPrevious[i - 2]);
+                }
+                lstResult.Add(lstCurrent);
+            }
+        */
     }
 }
