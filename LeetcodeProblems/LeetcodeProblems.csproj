@@ -124,6 +124,7 @@
     <Compile Include="Easy\clsFloodFill.cs" />
     <Compile Include="Easy\clsLargestPerimeterTriangle.cs" />
     <Compile Include="Easy\clsLongestNiceSubstring.cs" />
+    <Compile Include="Easy\clsLowestCommonAncestorOfABinarySearchTree.cs" />
     <Compile Include="Easy\clsMaximumDifferenceBetweenIncreasingElements.cs" />
     <Compile Include="Easy\clsMinimumAbsoluteDifference.cs" />
     <Compile Include="Easy\clsNumberComplement.cs" />
