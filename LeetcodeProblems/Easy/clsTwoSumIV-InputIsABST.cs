@@ -28,19 +28,18 @@ namespace LeetcodeProblems.Easy
     {
         public bool FindTarget(TreeNode root, int k)
         {
-            Dictionary<int, int> dict = new Dictionary<int, int>();
-            return buildArray(root, dict, k);
+            HashSet<int> hs = new HashSet<int>();
+            return iterate(root, hs, k);
         }
 
-        private bool buildArray(TreeNode curr, Dictionary<int, int> dict, int k)
+        private bool iterate(TreeNode curr, HashSet<int> hs, int k)
         {
             if (curr == null)
                 return false;
-            if (dict.ContainsKey(k - curr.val))
+            if (hs.Contains(k - curr.val))
                 return true;
-            if (!dict.ContainsKey(curr.val))
-                dict.Add(curr.val, k - curr.val);
-            return buildArray(curr.left, dict, k) || buildArray(curr.right, dict, k);
+            hs.Add(curr.val);
+            return iterate(curr.left, hs, k) || iterate(curr.right, hs, k);
         }
     }
 }
