@@ -45,5 +45,29 @@ namespace LeetcodeProblems.Easy
             }
             return dp[n];
         }
+
+        /* USING RECURSION DYNAMIC PROGRAMMING APPROACH
+        public int Tribonacci(int n) {
+            int[] dp = new int[n + 4];
+            return calcTrib(n, dp);
+        }
+    
+        private int calcTrib(int n, int[] dp)
+        {
+            if(n <= 1)
+            {
+                dp[n] = n;
+                return dp[n];
+            }
+            else if(n == 2)
+            {
+                dp[n] = 1;
+                return dp[n];
+            }   
+            if(dp[n] != 0)
+                return dp[n];
+            return dp[n] = calcTrib(n - 1, dp) + calcTrib(n - 2, dp) + calcTrib(n - 3, dp);
+        }
+        */
     }
 }
