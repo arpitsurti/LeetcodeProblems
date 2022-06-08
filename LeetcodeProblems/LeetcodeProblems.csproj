@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
-      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -229,6 +226,7 @@
     <Compile Include="Easy\clsReverseLinkedList.cs" />
     <Compile Include="Easy\clsReversePrefixOfWord.cs" />
     <Compile Include="Easy\clsReverseString.cs" />
+    <Compile Include="Easy\clsReverseVowelsOfAString.cs" />
     <Compile Include="Easy\clsReverseWordsInAStringIII.cs" />
     <Compile Include="Easy\clsRichestCustomerWealth.cs" />
     <Compile Include="Easy\clsRingsAndRods.cs" />
