@@ -283,6 +283,7 @@
     <Compile Include="Hard\clsFirstMissingPositive.cs" />
     <Compile Include="Hard\clsLongestValidParentheses.cs" />
     <Compile Include="Hard\clsMonotonicArray.cs" />
+    <Compile Include="Hard\clsTrappingRainWater.cs" />
     <Compile Include="Medium\cls3Sum.cs" />
     <Compile Include="Medium\cls3SumClosest.cs" />
     <Compile Include="Medium\cls4SumII.cs" />
