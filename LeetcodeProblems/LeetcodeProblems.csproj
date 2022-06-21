@@ -224,6 +224,7 @@
     <Compile Include="Easy\clsReplaceAllDigitsWithCharacters.cs" />
     <Compile Include="Easy\clsReplaceElementsWithGreatestElementOnRightSide.cs" />
     <Compile Include="Easy\clsReshapeTheMatrix.cs" />
+    <Compile Include="Easy\clsReverseBits.cs" />
     <Compile Include="Easy\clsReverseLinkedList.cs" />
     <Compile Include="Easy\clsReversePrefixOfWord.cs" />
     <Compile Include="Easy\clsReverseString.cs" />
