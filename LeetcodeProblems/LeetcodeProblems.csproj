@@ -331,6 +331,7 @@
     <Compile Include="Medium\clsMinimumAddToMakeParenthesesValid.cs" />
     <Compile Include="Medium\clsNumberOfIslands.cs" />
     <Compile Include="Medium\clsNumberOfLaserBeamsInABank.cs" />
+    <Compile Include="Medium\clsNumberOfMatchingSubsequences.cs" />
     <Compile Include="Medium\clsPartitionArrayAccordingToGivenPivot.cs" />
     <Compile Include="Medium\clsPermutationInString.cs" />
     <Compile Include="Medium\clsPopulatingNextRightPointersInEachNode.cs" />
