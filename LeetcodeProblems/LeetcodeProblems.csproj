@@ -352,6 +352,7 @@
     <Compile Include="Medium\clsSortColors.cs" />
     <Compile Include="Medium\clsSortList.cs" />
     <Compile Include="Medium\clsSortTheMatrixDiagonally.cs" />
+    <Compile Include="Medium\clsSpiralMatrix.cs" />
     <Compile Include="Medium\clsStringCompression.cs" />
     <Compile Include="Medium\clsStringToInteger%28atoi%29.cs" />
     <Compile Include="Medium\clsSubrectangleQueries.cs" />
