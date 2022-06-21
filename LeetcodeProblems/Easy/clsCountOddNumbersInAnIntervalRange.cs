@@ -25,6 +25,14 @@ namespace LeetcodeProblems.Easy
     */
     public class clsCountOddNumbersInAnIntervalRange
     {
+        //BIT MANIPULATION
+        public int CountOdds(int low, int high)
+        {
+            if ((low & 1) == 0 && (high & 1) == 0)
+                return (high - low) >> 1;
+            return ((high - low) >> 1) + 1;
+        }
+        /*Number calculation
         public int CountOdds(int low, int high)
         {
             if (low % 2 == 0 && high % 2 == 0)
@@ -32,5 +40,6 @@ namespace LeetcodeProblems.Easy
             else
                 return ((high - low) / 2) + 1;
         }
+        */
     }
 }
