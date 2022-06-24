@@ -31,6 +31,7 @@ namespace LeetcodeProblems.Easy
     */
     class clsReverseLinkedList
     {
+        //ITERATIVE APPROACH
         public ListNode ReverseList(ListNode head)
         {
             ListNode prev = null;
@@ -43,5 +44,18 @@ namespace LeetcodeProblems.Easy
             }
             return prev;
         }
+
+        /*RECURSIVE APPROACH
+        public ListNode ReverseList(ListNode head)
+        {
+            if (head == null || head.next == null)
+                return head;
+            ListNode newHead = ReverseList(head.next);
+            ListNode headNext = head.next;
+            headNext.next = head;
+            head.next = null;
+            return newHead;
+        }
+        */
     }
 }
