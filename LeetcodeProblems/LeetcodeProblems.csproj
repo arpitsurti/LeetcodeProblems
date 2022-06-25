@@ -339,6 +339,7 @@
     <Compile Include="Medium\clsMergeNodesInBetweenZeros.cs" />
     <Compile Include="Easy\clsSignOfTheProductOfAnArray.cs" />
     <Compile Include="Medium\clsMinimumAddToMakeParenthesesValid.cs" />
+    <Compile Include="Medium\clsNonDecreasingArray.cs" />
     <Compile Include="Medium\clsNumberOfIslands.cs" />
     <Compile Include="Medium\clsNumberOfLaserBeamsInABank.cs" />
     <Compile Include="Medium\clsNumberOfMatchingSubsequences.cs" />
