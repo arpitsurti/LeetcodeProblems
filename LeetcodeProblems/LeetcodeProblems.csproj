@@ -248,6 +248,7 @@
     <Compile Include="Easy\clsSameTree.cs" />
     <Compile Include="Easy\clsSearchInABinarySearchTree.cs" />
     <Compile Include="Easy\clsSearchInsertPosition.cs" />
+    <Compile Include="Easy\clsShortestCompletingWord.cs" />
     <Compile Include="Easy\clsShortestDistanceToACharacter.cs" />
     <Compile Include="Easy\clsShuffleString.cs" />
     <Compile Include="Easy\clsShuffleTheArray.cs" />
