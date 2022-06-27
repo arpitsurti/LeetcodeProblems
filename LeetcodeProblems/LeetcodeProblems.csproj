@@ -314,6 +314,7 @@
     <Compile Include="Medium\clsEncodeAndDecodeTinyURL.cs" />
     <Compile Include="Medium\clsExecutionOfAllSuffixInstructionsStayingInAGrid.cs" />
     <Compile Include="Medium\clsFindAllAnagramsInAString.cs" />
+    <Compile Include="Medium\clsFindAndReplacePattern.cs" />
     <Compile Include="Medium\clsFindDuplicateSubtrees.cs" />
     <Compile Include="Medium\clsFindFirstAndLastPositionOfElementInSortedArray.cs" />
     <Compile Include="Medium\clsFindPeakElement.cs" />
