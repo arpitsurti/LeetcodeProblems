@@ -354,6 +354,7 @@
     <Compile Include="Medium\clsRearrangeArrayElementsBySign.cs" />
     <Compile Include="Medium\clsRectangleArea.cs" />
     <Compile Include="Medium\clsRemoveAllAdjacentDuplicatesInStringII.cs" />
+    <Compile Include="Medium\clsRemoveAllOccurrencesOfASubstring.cs" />
     <Compile Include="Medium\clsRemoveDuplicatesFromSortedArrayII.cs" />
     <Compile Include="Medium\clsRemoveKDigits.cs" />
     <Compile Include="Medium\clsRemoveNthNodeFromEndOfList.cs" />
