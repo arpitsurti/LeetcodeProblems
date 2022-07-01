@@ -46,14 +46,13 @@ namespace LeetcodeProblems.Easy
     {
         public int RemoveDuplicates(int[] nums)
         {
-            int nextIndex = 0;
-            nums[nextIndex++] = nums[0];
+            int index = 1;
             for (int i = 1; i < nums.Length; i++)
             {
                 if (nums[i] != nums[i - 1])
-                    nums[nextIndex++] = nums[i];
+                    nums[index++] = nums[i];
             }
-            return nextIndex;
+            return index;
         }
     }
 }
