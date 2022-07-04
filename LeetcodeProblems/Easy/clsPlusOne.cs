@@ -40,6 +40,20 @@ namespace LeetcodeProblems.Easy
     {
         public int[] PlusOne(int[] digits)
         {
+            List<int> lstOutput = new List<int>();
+            int carry = 1;
+            int num = 0;
+            for (int i = digits.Length - 1; i >= 0; i--)
+            {
+                num = digits[i] + carry;
+                carry = num / 10;
+                lstOutput.Add(num % 10);
+            }
+            if (carry > 0)
+                lstOutput.Add(carry);
+            lstOutput.Reverse();
+            return lstOutput.ToArray();
+            /* n^2
             List<int> lstResult = new List<int>();
             int carry = 1;
 
@@ -53,6 +67,7 @@ namespace LeetcodeProblems.Easy
             if (carry > 0)
                 lstResult.Insert(0, carry);
             return lstResult.ToArray();
+            */
         }
     }
 }
