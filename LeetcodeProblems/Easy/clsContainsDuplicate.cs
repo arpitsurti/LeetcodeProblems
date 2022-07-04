@@ -32,9 +32,8 @@ namespace LeetcodeProblems.Easy
             HashSet<int> hs = new HashSet<int>();
             for (int i = 0; i < nums.Length; i++)
             {
-                if (hs.Contains(nums[i]))
+                if (!hs.Add(nums[i]))
                     return true;
-                hs.Add(nums[i]);
             }
             return false;
         }
