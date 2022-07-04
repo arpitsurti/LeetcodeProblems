@@ -220,6 +220,7 @@
     <Compile Include="Easy\clsPercentageOfLetterInString.cs" />
     <Compile Include="Easy\clsPlusOne.cs" />
     <Compile Include="Easy\clsRangeSumOfBST.cs" />
+    <Compile Include="Easy\clsRangeSumQuery-Immutable.cs" />
     <Compile Include="Easy\clsRansomNote.cs" />
     <Compile Include="Easy\clsRearrangeSpacesBetweenWords.cs" />
     <Compile Include="Easy\clsReformatDate.cs" />
