@@ -43,29 +43,24 @@ namespace LeetcodeProblems.Easy
     {
         public void Merge(int[] nums1, int m, int[] nums2, int n)
         {
-            int newIndex = m + n - 1;
-            m -= 1;
-            n -= 1;
+            int index = m + n - 1;
+            m = m - 1;
+            n = n - 1;
             while (m >= 0 && n >= 0)
             {
-                int n1 = m >= 0 ? nums1[m] : 0;
-                int n2 = n >= 0 ? nums2[n] : 0;
-                if (n1 >= n2)
-                {
-                    nums1[newIndex--] = n1;
-                    m--;
-                }
+                if (nums1[m] > nums2[n])
+                    nums1[index] = nums1[m--];
                 else
-                {
-                    nums1[newIndex--] = n2;
-                    n--;
-                }
+                    nums1[index] = nums2[n--];
+                index--;
+            }
+            while (m >= 0)
+            {
+                nums1[index--] = nums1[m--];
             }
             while (n >= 0)
             {
-                int n2 = n >= 0 ? nums2[n] : 0;
-                nums1[newIndex--] = n2;
-                n--;
+                nums1[index--] = nums2[n--];
             }
         }
     }

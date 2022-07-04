@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Easy
 {
     /*121. Best Time to Buy and Sell Stock
-     *** REF ***
      *** VERY IMP ***
      * You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
@@ -33,16 +32,14 @@ namespace LeetcodeProblems.Easy
     {
         public int MaxProfit(int[] prices)
         {
-            int profit = 0;
-            int minValue = int.MaxValue;
-            for (int i = 0; i < prices.Length; i++)
+            int min = prices[0];
+            int maxProfit = 0;
+            for (int i = 1; i < prices.Length; i++)
             {
-                if (prices[i] < minValue)
-                    minValue = prices[i];
-                if (prices[i] - minValue > profit)
-                    profit = prices[i] - minValue;
+                min = Math.Min(min, prices[i]);
+                maxProfit = Math.Max(maxProfit, prices[i] - min);
             }
-            return profit;
+            return maxProfit;
         }
     }
 }
