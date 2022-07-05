@@ -28,7 +28,7 @@ namespace LeetcodeProblems.Easy
         1 <= nums.length <= 104
         -109 <= nums[i] <= 109
     */
-    public class clsFindLengthOfLCIS
+    public class clsLongestContinuousIncreasingSubsequence
     {
         public int FindLengthOfLCIS(int[] nums)
         {
