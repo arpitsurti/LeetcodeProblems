@@ -44,7 +44,7 @@ namespace LeetcodeProblems.Easy
     {
         public int ThirdMax(int[] nums)
         {
-            long firstNum = long.MinValue;//Missed to use long if actually i get int.MinVAlue in the input
+            /*long firstNum = long.MinValue;//Missed to use long if actually i get int.MinVAlue in the input
             long secondNum = long.MinValue;
             long thirdNum = long.MinValue;
             for (int i = 0; i < nums.Length; i++)
@@ -68,6 +68,29 @@ namespace LeetcodeProblems.Easy
                     thirdNum = nums[i];
             }
             return thirdNum == long.MinValue ? (int)firstNum : (int)thirdNum;
+            */
+            int? first = null;
+            int? second = null;
+            int? third = null;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == first || nums[i] == second || nums[i] == third)
+                    continue;
+                if (first == null || nums[i] > first)
+                {
+                    second = first;
+                    third = second;
+                    first = nums[i];
+                }
+                else if (second == null || nums[i] > second)
+                {
+                    third = second;
+                    second = nums[i];
+                }
+                else if (third == null || nums[i] > third)
+                    third = nums[i];
+            }
+            return third.HasValue ? third.Value : first.Value;
         }
     }
 }
