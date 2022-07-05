@@ -78,8 +78,8 @@ namespace LeetcodeProblems.Easy
                     continue;
                 if (first == null || nums[i] > first)
                 {
-                    second = first;
                     third = second;
+                    second = first;
                     first = nums[i];
                 }
                 else if (second == null || nums[i] > second)

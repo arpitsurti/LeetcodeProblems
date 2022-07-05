@@ -42,6 +42,19 @@ namespace LeetcodeProblems.Easy
                     lstResult.Add(i + 1);
             }
             return lstResult;
+
+            /*
+            IList<int> lstResult = new List<int>();
+            for(int i = 0; i < nums.Length; i++)
+            {
+                lstResult.Add(i + 1);
+            }
+            for(int i = 0; i < nums.Length; i++)
+            {
+                lstResult.Remove(nums[i]);
+            }
+            return lstResult;
+            */
         }
     }
 }
