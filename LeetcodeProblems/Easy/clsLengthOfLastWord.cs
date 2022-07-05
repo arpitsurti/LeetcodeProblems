@@ -34,7 +34,6 @@ namespace LeetcodeProblems.Easy
     {
         public int LengthOfLastWord(string s)
         {
-            string[] input = s.Split(' ');
             int output = 0;
             for (int i = s.Length - 1; i >= 0; i--)
             {
