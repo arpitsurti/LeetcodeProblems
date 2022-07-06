@@ -26,6 +26,26 @@ namespace LeetcodeProblems.Easy
     {
         public string ReverseVowels(string s)
         {
+            int left = 0;
+            int right = s.Length - 1;
+            char[] arr = s.ToCharArray();
+            while (left < right)
+            {
+                if (isVowels(arr[left]) && isVowels(arr[right]))
+                {
+                    char temp = arr[left];
+                    arr[left] = arr[right];
+                    arr[right] = temp;
+                    left++;
+                    right--;
+                }
+                if (!isVowels(s[left]))
+                    left++;
+                if (!isVowels(s[right]))
+                    right--;
+            }
+            return new string(arr);
+            /* APPROACH 2
             HashSet<char> hs = new HashSet<char>();
             hs.Add('a');
             hs.Add('A');
@@ -56,6 +76,15 @@ namespace LeetcodeProblems.Easy
                     right--;
             }
             return new string(aCh);
+            */
+        }
+
+        private bool isVowels(char ch)
+        {
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'
+              || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+                return true;
+            return false;
         }
     }
 }
