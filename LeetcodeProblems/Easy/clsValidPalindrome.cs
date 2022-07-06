@@ -37,26 +37,17 @@ namespace LeetcodeProblems.Easy
         {
             int left = 0;
             int right = s.Length - 1;
+            s = s.ToLower();
             while (left < right)
             {
-                bool flgLeft = false;
-                bool flgRight = false;
-                if (!((s[left] >= 'a' && s[left] <= 'z') ||
-                   (s[left] >= 'A' && s[left] <= 'Z') ||
-                   (s[left] - '0' >= 0 && s[left] - '0' <= 9)))
+                if (!char.IsLetterOrDigit(s[left]))
                     left++;
-                else
-                    flgLeft = true;
-                if (!((s[right] >= 'a' && s[right] <= 'z') ||
-                   (s[right] >= 'A' && s[right] <= 'Z') ||
-                   (s[right] - '0' >= 0 && s[right] - '0' <= 9)))
+                else if (!char.IsLetterOrDigit(s[right]))
                     right--;
+                else if (s[left] != s[right])
+                    return false;
                 else
-                    flgRight = true;
-                if (flgLeft && flgRight)
                 {
-                    if ((s[left] + "").ToLower() != (s[right] + "").ToLower())
-                        return false;
                     left++;
                     right--;
                 }

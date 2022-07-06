@@ -42,6 +42,8 @@ namespace LeetcodeProblems.Easy
             {
                 char c = t[i];
                 charCount[c - 'a']--;
+                if (charCount[c - 'a'] < 0)
+                    return false;
             }
             for (int i = 0; i < 26; i++)
             {
