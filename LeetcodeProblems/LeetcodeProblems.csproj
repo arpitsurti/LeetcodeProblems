@@ -296,6 +296,7 @@
     <Compile Include="Easy\clsValidPalindromeII.cs" />
     <Compile Include="Easy\clsValidParentheses.cs" />
     <Compile Include="Easy\clsValidPerfectSquare.cs" />
+    <Compile Include="Easy\clsWordPattern.cs" />
     <Compile Include="Easy\clsXOROperationInAnArray.cs" />
     <Compile Include="Easy\clsHammingDistance.cs" />
     <Compile Include="Easy\OrderedStream.cs" />
