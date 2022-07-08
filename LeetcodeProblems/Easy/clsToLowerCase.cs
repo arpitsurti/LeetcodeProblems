@@ -28,6 +28,7 @@ namespace LeetcodeProblems.Easy
     {
         public string ToLowerCase(string s)
         {
+            //Approach 1
             char[] chArr = s.ToCharArray();
             for (int i = 0; i < chArr.Count(); i++)
             {
@@ -35,6 +36,18 @@ namespace LeetcodeProblems.Easy
                     chArr[i] = (char)(chArr[i] + 32);
             }
             return string.Join("", chArr);
+            /*Approach 2
+             * StringBuilder sb = new StringBuilder();
+                for(int i = 0; i < s.Length; i++)
+                {
+                    if(s[i] >= 'A' && s[i] <= 'Z')
+                        sb.Append((char)(s[i] + 32));
+                    else
+                        sb.Append(s[i]);
+                }
+                return sb.ToString();
+                }
+            */
         }
     }
 }
