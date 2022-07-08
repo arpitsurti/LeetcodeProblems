@@ -30,6 +30,7 @@ namespace LeetcodeProblems.Easy
     {
         public char FindTheDifference(string s, string t)
         {
+            //APPROACH 1
             int asciiS = 0;
             int asciiT = 0;
             for (int i = 0; i < s.Length; i++)
@@ -37,6 +38,25 @@ namespace LeetcodeProblems.Easy
             for (int i = 0; i < t.Length; i++)
                 asciiT += (int)t[i];
             return (char)(asciiT - asciiS);
+            /*APPROACH 2
+             * Dictionary<char, int> dict = new Dictionary<char, int>();
+            for(int i = 0; i < t.Length; i++)
+            {
+                if(!dict.ContainsKey(t[i]))
+                    dict.Add(t[i], 0);
+                dict[t[i]]++;
+            }
+            for(int i = 0; i < s.Length; i++)
+            {
+                dict[s[i]]--;
+            }
+            foreach(var item in dict)
+            {
+                if(item.Value == 1)
+                    return item.Key;
+            }
+            return 'a';
+            */
         }
     }
 }
