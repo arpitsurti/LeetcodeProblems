@@ -53,6 +53,7 @@
     <Compile Include="CommonClass\Node.cs" />
     <Compile Include="CommonClass\TreeNode.cs" />
     <Compile Include="Easy\clsAddBinary.cs" />
+    <Compile Include="Easy\clsAddStrings.cs" />
     <Compile Include="Easy\clsAverageOfLevelsInBinaryTree.cs" />
     <Compile Include="Easy\clsAverageSalaryExcludingTheMinimumAndMaximumSalary.cs" />
     <Compile Include="Easy\clsBackspaceStringCompare.cs" />
