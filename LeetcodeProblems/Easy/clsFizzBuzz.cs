@@ -33,6 +33,21 @@ namespace LeetcodeProblems.Easy
     {
         public IList<string> FizzBuzz(int n)
         {
+            //APPROACH 1
+            IList<string> lstResult = new List<string>();
+            for (int i = 1; i <= n; i++)
+            {
+                if (i % 3 == 0 && i % 5 == 0)
+                    lstResult.Add("FizzBuzz");
+                else if (i % 3 == 0)
+                    lstResult.Add("Fizz");
+                else if (i % 5 == 0)
+                    lstResult.Add("Buzz");
+                else
+                    lstResult.Add(i + "");
+            }
+            return lstResult;
+            /* APPROACH 2
             List<string> lstResult = new List<string>();
             for (int i = 1; i <= n; i++)
             {
@@ -48,6 +63,7 @@ namespace LeetcodeProblems.Easy
                     lstResult.Add("" + i);
             }
             return lstResult;
+            */
         }
     }
 }
