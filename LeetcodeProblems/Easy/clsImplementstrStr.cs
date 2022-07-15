@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Easy
 {
     /*28. Implement strStr()
+     *** REF ***
      * Implement strStr().
         Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 
@@ -28,6 +29,32 @@ namespace LeetcodeProblems.Easy
     */
     public class clsImplementstrStr
     {
+        //APPROACH 1
+        public int StrStr(string haystack, string needle)
+        {
+            int hLen = haystack.Length;
+            int nLen = needle.Length;
+            if (needle.Length == 0 || (hLen == nLen && haystack == needle))
+                return 0;
+
+            for (int haystackIndex = 0; haystackIndex < hLen; haystackIndex++)
+            {
+                if (needle[0] == haystack[haystackIndex])
+                {
+                    int tempIndex = haystackIndex;
+                    int needleIndex = 0;
+                    while (tempIndex < hLen && needleIndex < nLen && needle[needleIndex] == haystack[tempIndex])
+                    {
+                        needleIndex++;
+                        tempIndex++;
+                    }
+                    if (needleIndex == nLen)
+                        return haystackIndex;
+                }
+            }
+            return -1;
+        }
+        /* APPROACH 2
         public int StrStr(string haystack, string needle)
         {
             if (haystack.Length < needle.Length)
@@ -41,5 +68,6 @@ namespace LeetcodeProblems.Easy
             }
             return -1;
         }
+        */
     }
 }
