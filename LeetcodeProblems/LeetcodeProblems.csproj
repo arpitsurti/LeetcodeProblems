@@ -212,6 +212,7 @@
     <Compile Include="Easy\clsNextGreaterElementI.cs" />
     <Compile Include="Easy\clsNumberOf1Bits.cs" />
     <Compile Include="Easy\clsNumberOfGoodPairs.cs" />
+    <Compile Include="Easy\clsNumberOfSegmentsInAString.cs" />
     <Compile Include="Easy\clsNumberOfStepsToReduceANumberToZero.cs" />
     <Compile Include="Easy\clsNumberOfStringsThatAppearAsSubstringsInWord.cs" />
     <Compile Include="Easy\clsNumberOfStudentsDoingHomeworkAtAGivenTime.cs" />
