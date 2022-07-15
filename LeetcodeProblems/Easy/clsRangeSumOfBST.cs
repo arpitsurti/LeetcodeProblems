@@ -23,8 +23,19 @@ namespace LeetcodeProblems.Easy
     */
     public class clsRangeSumOfBST
     {
+        int sum = 0;
         public int RangeSumBST(TreeNode root, int low, int high)
         {
+            //APPROACH 1
+            if (root == null)
+                return sum;
+            if (root.val >= low && root.val <= high)
+                sum += root.val;
+            RangeSumBST(root.left, low, high);
+            RangeSumBST(root.right, low, high);
+            return sum;
+            /*APPROACH 2 
+             *ITERATIVE
             int result = 0;
             if (root == null)
                 return result;
@@ -41,6 +52,7 @@ namespace LeetcodeProblems.Easy
                     queue.Enqueue(currNode.right);
             }
             return result;
+            */
         }
     }
 }
