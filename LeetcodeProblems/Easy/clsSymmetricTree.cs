@@ -26,18 +26,53 @@ namespace LeetcodeProblems.Easy
     */
     public class clsSymmetricTree
     {
+        /*RECURSIVE
+        public bool IsSymmetric(TreeNode root) {
+            return IsSymmetric(root.left, root.right);
+        }
+    
+        private bool IsSymmetric(TreeNode left, TreeNode right)
+        {
+            if(left == null && right == null)
+                return true;
+            else if(left == null || right == null)
+                return false;
+            else if(left.val == right.val)
+                return IsSymmetric(left.left, right.right) && 
+                IsSymmetric(left.right, right.left);
+            return false;
+        }
+        */
+
+        //ITERATIVE
         public bool IsSymmetric(TreeNode root)
         {
-            return checkSymm(root.left, root.right);
-        }
-
-        private bool checkSymm(TreeNode root1, TreeNode root2)
-        {
-            if (root1 == null || root2 == null)
-                return root1 == root2;
-            if (root1.val != root2.val)
-                return false;
-            return checkSymm(root1.left, root2.right) && checkSymm(root1.right, root2.left);
+            if (root == null)
+                return true;
+            else if (root.left == null || root.right == null)
+                return root.left == root.right;
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+            if (root.left != null && root.right != null)
+            {
+                queue.Enqueue(root.left);
+                queue.Enqueue(root.right);
+            }
+            while (queue.Count != 0)
+            {
+                TreeNode leftNode = queue.Dequeue();
+                TreeNode rightNode = queue.Dequeue();
+                if (leftNode == null && rightNode == null)
+                    continue;
+                if (leftNode == null || rightNode == null)
+                    return false;
+                if (leftNode.val != rightNode.val)
+                    return false;
+                queue.Enqueue(leftNode.left);
+                queue.Enqueue(rightNode.right);
+                queue.Enqueue(leftNode.right);
+                queue.Enqueue(rightNode.left);
+            }
+            return true;
         }
     }
 }
