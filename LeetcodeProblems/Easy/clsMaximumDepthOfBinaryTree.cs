@@ -1,5 +1,6 @@
 ﻿using LeetcodeProblems.CommonClass;
 using System;
+using System.Collections.Generic;
 
 namespace LeetcodeProblems.Easy
 {
@@ -21,11 +22,36 @@ namespace LeetcodeProblems.Easy
     */
     public class clsMaximumDepthOfBinaryTree
     {
+        /*Recursive
+        public int MaxDepth(TreeNode root) {
+            if(root == null)
+                return 0;
+            return Math.Max(MaxDepth(root.left) + 1, MaxDepth(root.right) + 1);
+        }
+        */
+
+        //Iterative
         public int MaxDepth(TreeNode root)
         {
+            int depth = 0;
             if (root == null)
-                return 0;
-            return Math.Max(MaxDepth(root.left), MaxDepth(root.right)) + 1;
+                return depth;
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+            queue.Enqueue(root);
+            while (queue.Count != 0)
+            {
+                depth++;
+                int size = queue.Count();
+                while (size-- != 0)
+                {
+                    TreeNode curr = queue.Dequeue();
+                    if (curr.left != null)
+                        queue.Enqueue(curr.left);
+                    if (curr.right != null)
+                        queue.Enqueue(curr.right);
+                }
+            }
+            return depth;
         }
     }
 }
