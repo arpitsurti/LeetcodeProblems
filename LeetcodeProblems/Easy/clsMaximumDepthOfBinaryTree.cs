@@ -41,7 +41,7 @@ namespace LeetcodeProblems.Easy
             while (queue.Count != 0)
             {
                 depth++;
-                int size = queue.Count();
+                int size = queue.Count;
                 while (size-- != 0)
                 {
                     TreeNode curr = queue.Dequeue();

@@ -36,16 +36,18 @@ namespace LeetcodeProblems.Easy
         {
             if (root == null)
                 return true;
-            if (Math.Abs(height(root.left) - height(root.right)) <= 1)
-                return (IsBalanced(root.left) && IsBalanced(root.right));
-            return false;
+            int heightLeft = height(root.left);
+            int heightRight = height(root.right);
+            if (Math.Abs(heightLeft - heightRight) > 1)
+                return false;
+            return IsBalanced(root.left) && IsBalanced(root.right);
         }
 
-        private int height(TreeNode root)
+        private int height(TreeNode curr)
         {
-            if (root == null)
+            if (curr == null)
                 return 0;
-            return Math.Max(height(root.left), height(root.right)) + 1;
+            return Math.Max(height(curr.left) + 1, height(curr.right) + 1);
         }
     }
 }
