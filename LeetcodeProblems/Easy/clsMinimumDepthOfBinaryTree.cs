@@ -30,11 +30,11 @@ namespace LeetcodeProblems.Easy
         {
             if (root == null)
                 return 0;
-            int left = MinDepth(root.left);
-            int right = MinDepth(root.right);
-            if (left == 0 || right == 0)
-                return Math.Max(left, right) + 1;
-            return Math.Min(left + 1, right + 1);
+            else if (root.left != null && root.right == null)
+                return MinDepth(root.left) + 1;
+            else if (root.left == null && root.right != null)
+                return MinDepth(root.right) + 1;
+            return Math.Min(MinDepth(root.left) + 1, MinDepth(root.right) + 1);
         }
     }
 }
