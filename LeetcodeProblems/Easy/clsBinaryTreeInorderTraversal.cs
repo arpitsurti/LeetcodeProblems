@@ -48,15 +48,16 @@ namespace LeetcodeProblems.Easy
             return lstResult;
         }
         */
+        
         //RECURSIVE APPROACH
-        public void inorder(TreeNode root, IList<int> lstResult)
-        {
-            if (root == null)
-                return;
-            inorderRecursive(root.left, lstResult);
+        IList<int> lstResult = new List<int>();
+        public IList<int> InorderTraversal(TreeNode root) {
+            if(root == null)
+                return lstResult;
+            InorderTraversal(root.left);
             lstResult.Add(root.val);
-            inorderRecursive(root.right, lstResult);
+            InorderTraversal(root.right);
+            return lstResult;
         }
-
     }
 }
