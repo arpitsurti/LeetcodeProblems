@@ -28,6 +28,7 @@ namespace LeetcodeProblems.Easy
     */
     public class clsBinaryTreeInorderTraversal
     {
+        /* ITERATIVE APPROACH
         public IList<int> InorderTraversal(TreeNode root)
         {
             IList<int> lstResult = new List<int>();
@@ -46,8 +47,9 @@ namespace LeetcodeProblems.Easy
             }
             return lstResult;
         }
-
-        public void inorderRecursive(TreeNode root, IList<int> lstResult)
+        */
+        //RECURSIVE APPROACH
+        public void inorder(TreeNode root, IList<int> lstResult)
         {
             if (root == null)
                 return;
@@ -55,5 +57,6 @@ namespace LeetcodeProblems.Easy
             lstResult.Add(root.val);
             inorderRecursive(root.right, lstResult);
         }
+
     }
 }
