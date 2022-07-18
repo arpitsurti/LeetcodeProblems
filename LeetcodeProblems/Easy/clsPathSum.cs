@@ -45,5 +45,29 @@ namespace LeetcodeProblems.Easy
                 return true;
             return HasPathSum(root.left, targetSum - root.val) || HasPathSum(root.right, targetSum - root.val);
         }
+
+        /*ITERATIVE APPROACH
+         public boolean hasPathSum(TreeNode root, int sum) {
+        if (root == null) return false;
+        Stack<TreeNode> nodeStack = new Stack();
+        Stack<Integer> sumStack = new Stack();
+        nodeStack.push(root);
+        sumStack.push(sum);
+        while (!nodeStack.isEmpty()) {
+            TreeNode cur = nodeStack.pop();
+            int rem = sumStack.pop();
+            if (cur.val == rem && cur.left == null && cur.right == null) return true;
+            if (cur.left != null) {
+                nodeStack.push(cur.left);
+                sumStack.push(rem - cur.val);
+            }
+            if (cur.right != null) {
+                nodeStack.push(cur.right);
+                sumStack.push(rem - cur.val);
+            }
+        }
+        return false;
+    }
+         */
     }
 }
