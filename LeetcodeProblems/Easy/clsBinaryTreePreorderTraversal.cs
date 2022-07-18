@@ -32,24 +32,17 @@ namespace LeetcodeProblems.Easy
     public class clsBinaryTreePreorderTraversal
     {
         /* USING RECURSION
-        public IList<int> PreorderTraversal(TreeNode root)
-        {
-            IList<int> lstResult = new List<int>();
-            if (root == null)
+        IList<int> lstResult = new List<int>();
+        public IList<int> PreorderTraversal(TreeNode root) {
+            if(root == null)
                 return lstResult;
-            PreOrder(root, lstResult);
+            lstResult.Add(root.val);
+            PreorderTraversal(root.left);
+            PreorderTraversal(root.right);
             return lstResult;
         }
-
-        private void PreOrder(TreeNode curr, IList<int> lst)
-        {
-            if (curr == null)
-                return;
-            lst.Add(curr.val);
-            PreOrder(curr.left, lst);
-            PreOrder(curr.right, lst);
-        }
         */
+
         //USING ITERATION MOST IMPORTANT AS WE ARE USING STACK PUT RIGHT NODE FIRST
         public IList<int> PreorderTraversal(TreeNode root)
         {
