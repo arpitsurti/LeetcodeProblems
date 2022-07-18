@@ -30,6 +30,17 @@ namespace LeetcodeProblems.Easy
     */
     public class clsBinaryTreePostorderTraversal
     {
+        /* RECURSIVE
+         * IList<int> lstResult = new List<int>(); 
+        public IList<int> PostorderTraversal(TreeNode root) {
+            if(root == null)
+                return lstResult;
+            PostorderTraversal(root.left);
+            PostorderTraversal(root.right);
+            lstResult.Add(root.val);
+            return lstResult;
+        }
+        */
         public IList<int> PostorderTraversal(TreeNode root)
         {
             IList<int> lstResult = new List<int>();
