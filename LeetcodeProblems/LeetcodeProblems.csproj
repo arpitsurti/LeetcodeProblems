@@ -98,6 +98,7 @@
     <Compile Include="Easy\clsCountPrefixesOfAGivenString.cs" />
     <Compile Include="Easy\clsCountTheNumberOfConsistentStrings.cs" />
     <Compile Include="Easy\clsCreateTargetArrayInTheGivenOrder.cs" />
+    <Compile Include="Easy\clsDecodeTheMessage.cs" />
     <Compile Include="Easy\clsDecodeXORedArray.cs" />
     <Compile Include="Easy\clsDecompressRun-LengthEncodedList.cs" />
     <Compile Include="Easy\clsDecryptStringFromAlphabetToIntegerMapping.cs" />
