@@ -123,6 +123,7 @@
     <Compile Include="Easy\clsFindAllNumbersDisappearedInAnArray.cs" />
     <Compile Include="Easy\clsFindCenterOfStarGraph.cs" />
     <Compile Include="Easy\clsFindCommonCharacters.cs" />
+    <Compile Include="Easy\clsFindModeInBinarySearchTree.cs" />
     <Compile Include="Easy\clsFindNearestPointThatHasTheSameXOrYCoordinate.cs" />
     <Compile Include="Easy\clsFindPivotIndex.cs" />
     <Compile Include="Easy\clsFindResultantArrayAfterRemovingAnagrams.cs" />
