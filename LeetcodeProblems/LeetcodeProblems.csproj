@@ -135,6 +135,7 @@
     <Compile Include="Easy\clsLowestCommonAncestorOfABinarySearchTree.cs" />
     <Compile Include="Easy\clsMaximumDifferenceBetweenIncreasingElements.cs" />
     <Compile Include="Easy\clsMaximumNumberOfBalloons.cs" />
+    <Compile Include="Easy\clsMaximumNumberOfPairsInArray.cs" />
     <Compile Include="Easy\clsMaximumProductOfThreeNumbers.cs" />
     <Compile Include="Easy\clsMinimumAbsoluteDifference.cs" />
     <Compile Include="Easy\clsMinimumNumberOfMovesToSeatEveryone.cs" />
