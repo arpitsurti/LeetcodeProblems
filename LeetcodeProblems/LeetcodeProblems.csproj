@@ -130,6 +130,7 @@
     <Compile Include="Easy\clsFindResultantArrayAfterRemovingAnagrams.cs" />
     <Compile Include="Easy\clsFloodFill.cs" />
     <Compile Include="Easy\clsLargestPerimeterTriangle.cs" />
+    <Compile Include="Easy\clsLargestSubstringBetweenTwoEqualCharacters.cs" />
     <Compile Include="Easy\clsLongestHarmoniousSubsequence.cs" />
     <Compile Include="Easy\clsLongestNiceSubstring.cs" />
     <Compile Include="Easy\clsLongestPalindrome.cs" />
