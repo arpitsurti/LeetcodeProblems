@@ -44,25 +44,27 @@ namespace LeetcodeProblems.Easy
             HashSet<string> hs = new HashSet<string>();
             for (int i = 0; i < emails.Length; i++)
             {
-                string[] str = emails[i].Split('@');
-                StringBuilder sb = new StringBuilder();
-                int j = 0;
-                if (str[0].Contains("+"))
-                {
-                    while (j < str[0].Length)
-                    {
-                        if (str[0][j] == '+')
-                            break;
-                        j++;
-                    }
-                    sb.Append((str[0].Substring(0, j)).Replace(".", "") + "@" + str[1]);
-                }
-                else
-                    sb.Append((str[0].Replace(".", "") + "@" + str[1]));
-                Console.WriteLine(sb.ToString());
-                hs.Add(sb.ToString());
+                string[] input = emails[i].Split('@');
+                string localName = input[0].Replace(".", "");
+                string domainName = input[1];
+                if (localName.Contains('+'))
+                    localName = IgnoreAfterPlus(localName);
+                hs.Add(localName + "@" + domainName);
             }
-            return hs.Count();
+            return hs.Count;
+        }
+
+        private string IgnoreAfterPlus(string input)
+        {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (input[i] != '+')
+                    sb.Append(input[i]);
+                else
+                    break;
+            }
+            return sb.ToString();
         }
     }
 }
