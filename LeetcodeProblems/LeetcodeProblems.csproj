@@ -235,6 +235,7 @@
     <Compile Include="Easy\clsRansomNote.cs" />
     <Compile Include="Easy\clsRearrangeSpacesBetweenWords.cs" />
     <Compile Include="Easy\clsReformatDate.cs" />
+    <Compile Include="Easy\clsRelativeSortArray.cs" />
     <Compile Include="Easy\clsRemoveAllAdjacentDuplicatesInString.cs" />
     <Compile Include="Easy\clsRemoveDuplicatesFromSortedArray.cs" />
     <Compile Include="Easy\clsRemoveDuplicatesFromSortedList.cs" />
