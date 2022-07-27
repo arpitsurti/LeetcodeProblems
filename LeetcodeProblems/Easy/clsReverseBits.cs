@@ -9,6 +9,7 @@ namespace LeetcodeProblems.Easy
     /*190. Reverse Bits
      *** REF ***
      *https://www.youtube.com/watch?v=UcoN6UjAI64
+     *https://leetcode.com/problems/reverse-bits/discuss/2339454/Easiest-Way-to-do-oror-Bit-Manipulation-oror-Java-Code
      * Reverse bits of a given 32 bits unsigned integer.
 
         Note:
