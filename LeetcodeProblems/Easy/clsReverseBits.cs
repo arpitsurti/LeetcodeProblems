@@ -37,8 +37,9 @@ namespace LeetcodeProblems.Easy
             uint result = 0;
             for (int i = 0; i < 32; i++)
             {
-                var bit1 = (n >> i) & 1;
-                result = result | (bit1 << (31 - i));
+                result = result << 1;
+                result = result + (n & 1);
+                n = n >> 1;
             }
             return result;
         }
