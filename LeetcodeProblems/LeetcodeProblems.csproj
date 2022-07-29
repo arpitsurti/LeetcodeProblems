@@ -60,6 +60,7 @@
     <Compile Include="Easy\clsBalancedBinaryTree.cs" />
     <Compile Include="Easy\clsBaseballGame.cs" />
     <Compile Include="Easy\clsBestTimeToBuyAndSellStock.cs" />
+    <Compile Include="Easy\clsBinaryGap.cs" />
     <Compile Include="Easy\clsBinarySearch.cs" />
     <Compile Include="Easy\clsBinaryTreeInorderTraversal.cs" />
     <Compile Include="Easy\clsBinaryTreePaths.cs" />
