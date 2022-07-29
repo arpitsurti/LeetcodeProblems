@@ -82,6 +82,7 @@
     <Compile Include="Easy\clsCheckIfTwoStringArraysAreEquivalent.cs" />
     <Compile Include="Easy\clsCheckIfWordEqualsSummationOfTwoWords.cs" />
     <Compile Include="Easy\clsClimbingStairs.cs" />
+    <Compile Include="Easy\clsComplementOfBase10Integer.cs" />
     <Compile Include="Easy\clsConcatenationOfArray.cs" />
     <Compile Include="Easy\clsConsecutiveCharacters.cs" />
     <Compile Include="Easy\clsConstructStringFromBinaryTree.cs" />
