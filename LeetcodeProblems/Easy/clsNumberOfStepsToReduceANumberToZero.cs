@@ -42,7 +42,18 @@ namespace LeetcodeProblems.Easy
     {
         public int NumberOfSteps(int num)
         {
-            //USING RECURSION APPROACH
+            //USING BIT MANIPULATION
+            int count = 0;
+            while (num != 0)
+            {
+                if ((num & 1) == 0)
+                    num >>= 1;
+                else
+                    num -= 1;
+                count++;
+            }
+            return count;
+            /*//USING RECURSION APPROACH
             if (num == 0)
                 return 0;
             return NumberOfSteps(num % 2 == 0 ? num / 2 : num - 1) + 1;
