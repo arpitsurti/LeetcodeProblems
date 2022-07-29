@@ -235,6 +235,7 @@
     <Compile Include="Easy\clsPlusOne.cs" />
     <Compile Include="Easy\clsPowerOfFour.cs" />
     <Compile Include="Easy\clsPowerOfTwo.cs" />
+    <Compile Include="Easy\clsPrimeNumberOfSetBitsInBinaryRepresentation.cs" />
     <Compile Include="Easy\clsRangeSumOfBST.cs" />
     <Compile Include="Easy\clsRangeSumQuery-Immutable.cs" />
     <Compile Include="Easy\clsRansomNote.cs" />
