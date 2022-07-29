@@ -232,6 +232,7 @@
     <Compile Include="Easy\clsPeakIndexInAMountainArray.cs" />
     <Compile Include="Easy\clsPercentageOfLetterInString.cs" />
     <Compile Include="Easy\clsPlusOne.cs" />
+    <Compile Include="Easy\clsPowerOfFour.cs" />
     <Compile Include="Easy\clsPowerOfTwo.cs" />
     <Compile Include="Easy\clsRangeSumOfBST.cs" />
     <Compile Include="Easy\clsRangeSumQuery-Immutable.cs" />
