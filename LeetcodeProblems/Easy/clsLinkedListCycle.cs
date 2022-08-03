@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Easy
 {
     /*141. Linked List Cycle
-     *** REF ***
      *https://www.youtube.com/watch?v=6OrZ4wAy4uE
      * Given head, the head of a linked list, determine if the linked list has a cycle in it.
 
@@ -35,7 +34,6 @@ namespace LeetcodeProblems.Easy
         The number of the nodes in the list is in the range [0, 104].
         -105 <= Node.val <= 105
         pos is -1 or a valid index in the linked-list.
- 
 
         Follow up: Can you solve it using O(1) (i.e. constant) memory?
     */
@@ -43,6 +41,20 @@ namespace LeetcodeProblems.Easy
     {
         public bool HasCycle(ListNode head)
         {
+            // APPROACH 1
+            if (head == null || head.next == null)
+                return false;
+            ListNode slow = head;
+            ListNode fast = head.next;
+            while (fast != null && fast.next != null)
+            {
+                if (slow == fast)
+                    return true;
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+            return false;
+            /* APPROACH 2
             if (head == null)
                 return false;
             ListNode slow = head;
@@ -55,6 +67,7 @@ namespace LeetcodeProblems.Easy
                 fast = fast.next.next;
             }
             return true;
+            */
         }
     }
 }
