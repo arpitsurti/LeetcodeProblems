@@ -136,6 +136,7 @@
     <Compile Include="Easy\clsFindResultantArrayAfterRemovingAnagrams.cs" />
     <Compile Include="Easy\clsFirstLetterToAppearTwice.cs" />
     <Compile Include="Easy\clsFloodFill.cs" />
+    <Compile Include="Easy\clsGetMaximumInGeneratedArray.cs" />
     <Compile Include="Easy\clsLargestPerimeterTriangle.cs" />
     <Compile Include="Easy\clsLargestSubstringBetweenTwoEqualCharacters.cs" />
     <Compile Include="Easy\clsLongestHarmoniousSubsequence.cs" />
