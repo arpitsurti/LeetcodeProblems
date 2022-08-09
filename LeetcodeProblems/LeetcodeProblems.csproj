@@ -382,6 +382,7 @@
     <Compile Include="Medium\clsProductOfArrayExceptSelf.cs" />
     <Compile Include="Medium\clsRearrangeArrayElementsBySign.cs" />
     <Compile Include="Medium\clsRectangleArea.cs" />
+    <Compile Include="Medium\clsReduceArraySizeToTheHalf.cs" />
     <Compile Include="Medium\clsRemoveAllAdjacentDuplicatesInStringII.cs" />
     <Compile Include="Medium\clsRemoveAllOccurrencesOfASubstring.cs" />
     <Compile Include="Medium\clsRemoveDuplicatesFromSortedArrayII.cs" />
