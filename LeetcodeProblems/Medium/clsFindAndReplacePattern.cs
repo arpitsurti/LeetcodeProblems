@@ -34,27 +34,31 @@ namespace LeetcodeProblems.Medium
         public IList<string> FindAndReplacePattern(string[] words, string pattern)
         {
             IList<string> lstResult = new List<string>();
-            for (int i = 0; i < words.Length; i++)
+            foreach (string word in words)
             {
-                if (match(words[i], pattern))
-                    lstResult.Add(words[i]);
+                if (IsMatch(word, pattern))
+                {
+                    lstResult.Add(word);
+                }
             }
             return lstResult;
         }
 
-        private bool match(string str1, string str2)
+        private bool IsMatch(string word, string pattern)
         {
-            if (str1.Length != str2.Length)
+            if (word.Length != pattern.Length)
                 return false;
             Dictionary<char, char> dict = new Dictionary<char, char>();
-            for (int i = 0; i < str1.Length; i++)
+            for (int i = 0; i < word.Length; i++)
             {
-                if (dict.ContainsKey(str1[i]) && dict[str1[i]] != str2[i])
+                if (dict.ContainsKey(word[i]) && dict[word[i]] != pattern[i])
                     return false;
-                if (!dict.ContainsKey(str1[i]) && dict.ContainsValue(str2[i]))
+                else if (!dict.ContainsKey(word[i]) && dict.ContainsValue(pattern[i]))
                     return false;
-                if (!dict.ContainsKey(str1[i]) && !dict.ContainsValue(str2[i]))
-                    dict.Add(str1[i], str2[i]);
+                else if (!dict.ContainsKey(word[i]) && !dict.ContainsValue(pattern[i]))
+                    dict.Add(word[i], pattern[i]);
+                else
+                    continue;
             }
             return true;
         }
