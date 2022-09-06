@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Easy
 {
     /*66. Plus One
+     *https://www.youtube.com/watch?v=G737jzcxG9A
      * You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
         Increment the large integer by one and return the resulting array of digits.
 
@@ -40,19 +41,19 @@ namespace LeetcodeProblems.Easy
     {
         public int[] PlusOne(int[] digits)
         {
-            List<int> lstOutput = new List<int>();
-            int carry = 1;
-            int num = 0;
-            for (int i = digits.Length - 1; i >= 0; i--)
+            int len = digits.Length;
+            for (int i = len - 1; i >= 0; i--)
             {
-                num = digits[i] + carry;
-                carry = num / 10;
-                lstOutput.Add(num % 10);
+                if (digits[i] < 9)
+                {
+                    digits[i]++;
+                    return digits;
+                }
+                digits[i] = 0;
             }
-            if (carry > 0)
-                lstOutput.Add(carry);
-            lstOutput.Reverse();
-            return lstOutput.ToArray();
+            int[] output = new int[len + 1];
+            output[0] = 1;
+            return output;
             /* n^2
             List<int> lstResult = new List<int>();
             int carry = 1;
