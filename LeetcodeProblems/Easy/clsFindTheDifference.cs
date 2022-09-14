@@ -39,6 +39,24 @@ namespace LeetcodeProblems.Easy
                 asciiT += (int)t[i];
             return (char)(asciiT - asciiS);
             /*APPROACH 2
+             int[] map = new int[26];
+            for(int i = 0; i < s.Length; i++)
+            {
+                map[s[i] - 'a']++;
+            }
+            for(int i = 0; i < t.Length; i++)
+            {
+                map[t[i] - 'a']--;
+            }
+            for(int i = 0; i < 32; i++)
+            {
+                if(map[i] < 0)
+                    return (char)('a' + i);
+            }
+            return ' ';
+            */
+
+            /*APPROACH 3
              * Dictionary<char, int> dict = new Dictionary<char, int>();
             for(int i = 0; i < t.Length; i++)
             {
