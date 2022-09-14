@@ -260,6 +260,7 @@
     <Compile Include="Easy\clsReshapeTheMatrix.cs" />
     <Compile Include="Easy\clsReverseBits.cs" />
     <Compile Include="Easy\clsReverseLinkedList.cs" />
+    <Compile Include="Easy\clsReverseOnlyLetters.cs" />
     <Compile Include="Easy\clsReversePrefixOfWord.cs" />
     <Compile Include="Easy\clsReverseString.cs" />
     <Compile Include="Easy\clsReverseStringII.cs" />
