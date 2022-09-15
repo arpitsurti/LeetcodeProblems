@@ -33,6 +33,25 @@ namespace LeetcodeProblems.Easy
     {
         public string SortSentence(string s)
         {
+            int len = s.Split(' ').Length;
+            string[] str = new string[len];
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < s.Length; i++)
+            {
+                char curr = s[i];
+                if (curr != ' ')
+                {
+                    if (curr - '0' >= 0 && curr - '0' <= 9)
+                    {
+                        str[curr - '0' - 1] = sb.ToString();
+                        sb.Clear();
+                    }
+                    else
+                        sb.Append(s[i]);
+                }
+            }
+            return string.Join(" ", str);
+            /* USING SUBSTRING
             string[] output = new string[s.Split(' ').Length];
             foreach (string str in s.Split(' '))
             {
@@ -40,6 +59,7 @@ namespace LeetcodeProblems.Easy
                 output[index] = str.Substring(0, str.Length - 1);
             }
             return string.Join(" ", output);
+            */
         }
     }
 }
