@@ -27,6 +27,19 @@ namespace LeetcodeProblems.Easy
     {
         public int NumJewelsInStones(string jewels, string stones)
         {
+            bool[] map = new bool[58];//Length from A to z is 58
+            for (int i = 0; i < jewels.Length; i++)
+            {
+                map[jewels[i] - 'A'] = true;
+            }
+            int output = 0;
+            for (int i = 0; i < stones.Length; i++)
+            {
+                if (map[stones[i] - 'A'])
+                    output++;
+            }
+            return output;
+            /* USING HASHSET
             int output = 0;
             HashSet<char> hs = new HashSet<char>();
             for (int i = 0; i < jewels.Length; i++)
@@ -39,6 +52,7 @@ namespace LeetcodeProblems.Easy
                     output++;
             }
             return output;
+            */
         }
     }
 }
