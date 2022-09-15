@@ -39,6 +39,25 @@ namespace LeetcodeProblems.Easy
     */
     public class clsSummaryRanges
     {
+        /* O(n) Time Complexity
+        public IList<string> SummaryRanges(int[] nums)
+        {
+            IList<string> lstResult = new List<string>();
+            if(nums.Length == 0)
+                return lstResult;
+            for(int i = 0; i < nums.Length; i++)
+            {
+                int start = nums[i];
+                while(i + 1 < nums.Length && nums[i] + 1 == nums[i + 1])
+                    i++;
+                if(start == nums[i])
+                    lstResult.Add(nums[i] + "");
+                else
+                    lstResult.Add(start + "->" + nums[i]);
+            }
+            return lstResult;
+        }
+         */
         public IList<string> SummaryRanges(int[] nums)
         {
             IList<string> lstResult = new List<string>();
