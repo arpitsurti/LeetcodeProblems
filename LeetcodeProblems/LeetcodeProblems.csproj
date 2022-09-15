@@ -90,6 +90,7 @@
     <Compile Include="Easy\clsContainsDuplicateII.cs" />
     <Compile Include="Easy\clsConvertBinaryNumberInALinkedListToInteger.cs" />
     <Compile Include="Easy\clsConvertSortedArrayToBinarySearchTree.cs" />
+    <Compile Include="Easy\clsCountAsterisks.cs" />
     <Compile Include="Easy\clsCountCommonWordsWithOneOccurrence.cs" />
     <Compile Include="Easy\clsCountEqualAndDivisiblePairsInAnArray.cs" />
     <Compile Include="Easy\clsCountingBits.cs" />
