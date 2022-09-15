@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Easy
 {
     /*697. Degree of an Array
-     *** REF ***
      * Given a non-empty array of non-negative integers nums, the degree of this array is defined as the maximum frequency of any one of its elements.
 
         Your task is to find the smallest possible length of a (contiguous) subarray of nums, that has the same degree as nums.
@@ -36,30 +35,23 @@ namespace LeetcodeProblems.Easy
     {
         public int FindShortestSubArray(int[] nums)
         {
-            Dictionary<int, int> dict = new Dictionary<int, int>();
-            Dictionary<int, List<int>> dictResult = new Dictionary<int, List<int>>();
-            int degree = 0;
+            Dictionary<int, List<int>> dict = new Dictionary<int, List<int>>();
+            int output = int.MaxValue;
+            int maxCount = 1;
             for (int i = 0; i < nums.Length; i++)
             {
-                if (!dictResult.ContainsKey(nums[i]))
-                    dictResult.Add(nums[i], new List<int>());
-                dictResult[nums[i]].Add(i);
                 if (!dict.ContainsKey(nums[i]))
-                    dict.Add(nums[i], 0);
-                dict[nums[i]]++;
-                degree = Math.Max(degree, dict[nums[i]]);
+                    dict.Add(nums[i], new List<int>());
+                dict[nums[i]].Add(i);
+                if (dict[nums[i]].Count > maxCount)
+                    maxCount = dict[nums[i]].Count;
             }
-            int output = int.MaxValue;
+
             foreach (var item in dict)
             {
-                if (item.Value == degree)
-                {
-                    int count = dictResult[item.Key].Count;
-                    if (count == 1)
-                        output = 1;
-                    else
-                        output = Math.Min(output, dictResult[item.Key][count - 1] - dictResult[item.Key][0] + 1);
-                }
+                int count = item.Value.Count;
+                if (count == maxCount)
+                    output = Math.Min(item.Value[count - 1] - item.Value[0] + 1, output);
             }
             return output;
         }
