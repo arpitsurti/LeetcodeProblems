@@ -28,7 +28,7 @@ namespace LeetcodeProblems.Easy
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < address.Length; i++)
             {
-                sb.Append(address[i] == '.' ? "[.]" : address[i].ToString());
+                sb.Append(address[i] != '.' ? address[i] + "" : "[.]");
             }
             return sb.ToString();
         }
