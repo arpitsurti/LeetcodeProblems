@@ -58,13 +58,8 @@ namespace LeetcodeProblems.Easy
             int output = 0;
             for (int i = 0; i < s.Length; i++)
             {
-                if (i + 1 < s.Length)
-                {
-                    if (dict[s[i]] >= dict[s[i + 1]])
-                        output += dict[s[i]];
-                    else
-                        output -= dict[s[i]];
-                }
+                if (i + 1 < s.Length && dict[s[i]] < dict[s[i + 1]])
+                    output -= dict[s[i]];
                 else
                     output += dict[s[i]];
             }
