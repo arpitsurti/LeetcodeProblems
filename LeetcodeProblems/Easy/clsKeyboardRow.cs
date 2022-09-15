@@ -35,6 +35,34 @@ namespace LeetcodeProblems.Easy
     {
         public string[] FindWords(string[] words)
         {
+            string[] inputStr = new string[] { "qwertyuiop", "asdfghjkl", "zxcvbnm" };
+            Dictionary<char, int> dict = new Dictionary<char, int>();
+            for (int i = 0; i < inputStr.Length; i++)
+            {
+                foreach (var item in inputStr[i].ToCharArray())
+                {
+                    dict.Add(item, i);
+                }
+            }
+            List<string> lstResult = new List<string>();
+            foreach (string str in words)
+            {
+                string input = str.ToLower();
+                int rowNum = dict[input[0]];
+                bool isValid = true;
+                foreach (char c in input)
+                {
+                    if (rowNum != dict[c])
+                    {
+                        isValid = false;
+                        break;
+                    }
+                }
+                if (isValid)
+                    lstResult.Add(str);
+            }
+            return lstResult.ToArray();
+            /*
             string[] str = new string[] { "qwertyuiop", "asdfghjkl", "zxcvbnm" };
             Dictionary<char, int> dict = new Dictionary<char, int>();
             for (int i = 0; i < str.Length; i++)
@@ -66,6 +94,7 @@ namespace LeetcodeProblems.Easy
                     lstOutput.Add(item);
             }
             return lstOutput.ToArray();
+            */
         }
     }
 }
