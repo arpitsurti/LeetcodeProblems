@@ -35,6 +35,20 @@ namespace LeetcodeProblems.Easy
             Stack<char> st = new Stack<char>();
             for (int i = 0; i < s.Length; i++)
             {
+                if (s[i] == '(')
+                    st.Push(')');
+                else if (s[i] == '{')
+                    st.Push('}');
+                else if (s[i] == '[')
+                    st.Push(']');
+                else if (st.Count == 0 || st.Pop() != s[i])
+                    return false;
+            }
+            return st.Count == 0;
+            /*APPROACH 3
+            Stack<char> st = new Stack<char>();
+            for (int i = 0; i < s.Length; i++)
+            {
                 if (s[i] == ')' && st.Count > 0 && st.Peek() == '(')
                     st.Pop();
                 else if (s[i] == '}' && st.Count > 0 && st.Peek() == '{')
@@ -46,7 +60,7 @@ namespace LeetcodeProblems.Easy
             }
             return st.Count == 0;
 
-            /* APPROACH 2
+            APPROACH 2
              * Stack<char> st = new Stack<char>();
                 for(int i = 0; i < s.Length; i++)
                 {
