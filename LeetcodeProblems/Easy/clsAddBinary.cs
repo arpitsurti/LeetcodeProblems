@@ -26,23 +26,27 @@ namespace LeetcodeProblems.Easy
     {
         public string AddBinary(string a, string b)
         {
+            int lenA = a.Length;
+            int lenB = b.Length;
+            int n = Math.Max(lenA, lenB) - 1;
             StringBuilder sb = new StringBuilder();
-            int aIndex = a.Length - 1;
-            int bIndex = b.Length - 1;
             int carry = 0;
-            while (aIndex >= 0 || bIndex >= 0)
+            lenA--;
+            lenB--;
+            while (lenA >= 0 || lenB >= 0)
             {
-                int num1 = aIndex >= 0 ? a[aIndex] - '0' : 0;
-                int num2 = bIndex >= 0 ? b[bIndex] - '0' : 0;
-                int sum = num1 + num2 + carry;
-                carry = sum / 2;
-                aIndex--;
-                bIndex--;
-                sb.Insert(0, sum % 2);
+                int A = lenA >= 0 ? a[lenA] - '0' : 0;
+                int B = lenB >= 0 ? b[lenB] - '0' : 0;
+                int sum = A + B + carry;
+
+                sb.Append((sum % 2) + "");
+                carry = sum >> 1;
+                lenA--;
+                lenB--;
             }
-            if (carry > 0)
-                sb.Insert(0, carry);
-            return sb.ToString();
+            if (carry == 1)
+                sb.Append("1");
+            return new string(sb.ToString().Reverse().ToArray());
         }
     }
 }

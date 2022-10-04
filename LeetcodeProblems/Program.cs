@@ -10,10 +10,5 @@ namespace LeetcodeProblems
         static void Main(string[] args)
         {
         }
-
-        public static bool DetectCapitalUse(string word)
-        {
-           
-        }
     }
 }
