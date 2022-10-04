@@ -37,6 +37,15 @@ namespace LeetcodeProblems.Easy
     {
         public int HammingWeight(uint n)
         {
+            //USING REMOVING MOST SIGNIFICANT 1 FROM NUMBER
+            int output = 0;
+            while (n != 0)
+            {
+                n = n & (n - 1);
+                output++;
+            }
+            return output;
+            /* APPROACH 2
             int count = 0;
             while (n != 0)
             {
@@ -45,6 +54,7 @@ namespace LeetcodeProblems.Easy
                 n >>= 1;
             }
             return count;
+            */
         }
     }
 }
