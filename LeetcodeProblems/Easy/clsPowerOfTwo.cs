@@ -35,12 +35,9 @@ namespace LeetcodeProblems.Easy
         public bool IsPowerOfTwo(int n)
         {
             //return Math.Log2(n) % 2 == 0;
-            if (n == 0)
-                return false;
-            else if (n > 0 && (n == 1 || ((n & (n - 1)) == 0)))
+            if (n > 0 && (n == 1 || (n & (n - 1)) == 0))
                 return true;
-            else
-                return false;
+            return false;
         }
     }
 }
