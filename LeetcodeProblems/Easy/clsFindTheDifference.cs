@@ -30,7 +30,18 @@ namespace LeetcodeProblems.Easy
     {
         public char FindTheDifference(string s, string t)
         {
-            //APPROACH 1
+            // USING BIT MANIPULATION XOR
+            int output = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                output ^= s[i] - 'a';
+            }
+            for (int i = 0; i < t.Length; i++)
+            {
+                output ^= t[i] - 'a';
+            }
+            return (char)(output + 'a');
+            /*APPROACH 1
             int asciiS = 0;
             int asciiT = 0;
             for (int i = 0; i < s.Length; i++)
@@ -38,6 +49,8 @@ namespace LeetcodeProblems.Easy
             for (int i = 0; i < t.Length; i++)
                 asciiT += (int)t[i];
             return (char)(asciiT - asciiS);
+
+            */
             /*APPROACH 2
              int[] map = new int[26];
             for(int i = 0; i < s.Length; i++)
