@@ -28,34 +28,26 @@ namespace LeetcodeProblems.Easy
     {
         public IList<double> AverageOfLevels(TreeNode root)
         {
-            IList<double> lstResult = new List<double>();
+            IList<double> result = new List<double>();
             Queue<TreeNode> queue = new Queue<TreeNode>();
             queue.Enqueue(root);
-            queue.Enqueue(null);
-            double count = 0;
-            double sum = 0;
-            while (queue.Count() > 0)
+            while (queue.Count != 0)
             {
-                TreeNode curr = queue.Dequeue();
-                if (curr == null)
+                int len = queue.Count;
+                double sum = 0;
+                int count = len;
+                while (len-- != 0)
                 {
-                    lstResult.Add((sum / count));
-                    sum = 0;
-                    count = 0;
-                    if (queue.Count != 0)//This line is important to break the loop
-                        queue.Enqueue(null);
-                }
-                else
-                {
+                    TreeNode curr = queue.Dequeue();
                     sum += curr.val;
-                    count++;
                     if (curr.left != null)
                         queue.Enqueue(curr.left);
                     if (curr.right != null)
                         queue.Enqueue(curr.right);
                 }
+                result.Add(sum / count);
             }
-            return lstResult;
+            return result;
         }
     }
 }
