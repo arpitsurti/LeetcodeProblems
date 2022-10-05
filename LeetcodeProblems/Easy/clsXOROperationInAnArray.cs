@@ -33,15 +33,12 @@ namespace LeetcodeProblems.Easy
     {
         public int XorOperation(int n, int start)
         {
-            int result = 0;
-            int count = start + n;
-            int index = 0;
-            while (index < n)
+            int output = 0;
+            for (int i = 0; i < n; i++)
             {
-                result ^= (start + 2 * index);
-                index++;
+                output ^= start + 2 * i;
             }
-            return result;
+            return output;
         }
     }
 }
