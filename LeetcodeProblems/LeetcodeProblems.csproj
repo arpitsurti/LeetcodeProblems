@@ -241,6 +241,7 @@
     <Compile Include="Easy\clsPercentageOfLetterInString.cs" />
     <Compile Include="Easy\clsPlusOne.cs" />
     <Compile Include="Easy\clsPowerOfFour.cs" />
+    <Compile Include="Easy\clsPowerOfThree.cs" />
     <Compile Include="Easy\clsPowerOfTwo.cs" />
     <Compile Include="Easy\clsPrimeNumberOfSetBitsInBinaryRepresentation.cs" />
     <Compile Include="Easy\clsRangeSumOfBST.cs" />
@@ -310,6 +311,7 @@
     <Compile Include="Easy\clsTwoOutOfThree.cs" />
     <Compile Include="Easy\clsTwoSum.cs" />
     <Compile Include="Easy\clsTwoSumIV-InputIsABST.cs" />
+    <Compile Include="Easy\clsUglyNumber.cs" />
     <Compile Include="Easy\clsUncommonWordsFromTwoSentences.cs" />
     <Compile Include="Easy\clsUniqueEmailAddresses.cs" />
     <Compile Include="Easy\clsUniqueMorseCodeWords.cs" />
