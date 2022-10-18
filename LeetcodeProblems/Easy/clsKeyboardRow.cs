@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Easy
 {
     /*500. Keyboard Row
+     ### REF ###
      * Given an array of strings words, return the words that can be typed using letters of the alphabet on only one row of American keyboard like the image below.
 
         In the American keyboard:
@@ -33,6 +34,59 @@ namespace LeetcodeProblems.Easy
     */
     public class clsKeyboardRow
     {
+        /*USING 3 HASHSET
+        public string[] FindWords(string[] words) {
+        HashSet<char> hs1 = new HashSet<char>();
+        string row1 = "qwertyuiop";
+        foreach(char ch in row1)
+        {
+            hs1.Add(ch);
+        }
+        HashSet<char> hs2 = new HashSet<char>();
+        string row2 = "asdfghjkl";
+        foreach(char ch in row2)
+        {
+            hs2.Add(ch);
+        }
+        HashSet<char> hs3 = new HashSet<char>();
+        string row3 = "zxcvbnm";
+        foreach(char ch in row3)
+        {
+            hs3.Add(ch);
+        }
+        List<string> lstResult = new List<string>();
+        foreach(string str in words)
+        {
+            string word = str.ToLower();
+            int rowNum = -1;
+            bool sameRow = true;
+            foreach(char ch in word)
+            {
+                if(rowNum == -1)
+                {
+                    if(hs1.Contains(ch))
+                        rowNum = 1;
+                    else if(hs2.Contains(ch))
+                        rowNum = 2;
+                    else
+                        rowNum = 3;
+                }
+                else
+                {
+                    if((rowNum == 1 && !hs1.Contains(ch)) || (rowNum == 2 && !hs2.Contains(ch)) ||
+                    (rowNum == 3 && !hs3.Contains(ch)))
+                    {
+                        sameRow = false;
+                        break;
+                    }
+                }
+            }
+            if(sameRow)
+                lstResult.Add(str);
+        }
+        return lstResult.ToArray();
+    }
+        */
         public string[] FindWords(string[] words)
         {
             string[] inputStr = new string[] { "qwertyuiop", "asdfghjkl", "zxcvbnm" };
