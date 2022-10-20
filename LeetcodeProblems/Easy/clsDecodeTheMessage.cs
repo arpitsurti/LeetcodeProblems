@@ -39,6 +39,25 @@ namespace LeetcodeProblems.Easy
     {
         public string DecodeMessage(string key, string message)
         {
+            //USING CHAR ARRAY 
+            char[] map = new char[26];
+            char c = 'a';
+            for (int i = 0; i < key.Length; i++)
+            {
+                if (key[i] != ' ' && map[key[i] - 'a'] == 0)
+                    map[key[i] - 'a'] = c++;
+            }
+
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < message.Length; i++)
+            {
+                if (message[i] == ' ')
+                    sb.Append(" ");
+                else
+                    sb.Append(map[message[i] - 'a']);
+            }
+            return sb.ToString();
+            /*USING DICTIONARY
             Dictionary<char, char> dict = new Dictionary<char, char>();
             char c = 'a';
             for (int i = 0; i < key.Length && c <= 'z'; i++)
@@ -58,6 +77,7 @@ namespace LeetcodeProblems.Easy
                     sb.Append(dict[message[i]]);
             }
             return sb.ToString();
+            */
         }
     }
 }
