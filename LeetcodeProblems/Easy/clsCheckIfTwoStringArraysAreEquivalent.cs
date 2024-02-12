@@ -47,6 +47,9 @@ namespace LeetcodeProblems.Easy
                 sb2.Append(word2[i]);
             }
             return sb1.ToString() == sb2.ToString();
+
+            //OR
+            //return string.Join("", word1) == string.Join("", word2);
         }
     }
 }
