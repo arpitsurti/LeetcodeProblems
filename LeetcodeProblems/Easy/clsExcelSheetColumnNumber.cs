@@ -44,7 +44,7 @@ namespace LeetcodeProblems.Easy
             int output = 0;
             for (int i = 0; i < columnTitle.Length; i++)
             {
-                output = output * 26 + (((int)(columnTitle[i])) - 65 + 1);
+                output = output * 26 + columnTitle[i] - 65 + 1;
             }
             return output;
         }

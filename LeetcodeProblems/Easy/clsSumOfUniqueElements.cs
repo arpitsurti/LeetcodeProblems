@@ -33,19 +33,17 @@ namespace LeetcodeProblems.Easy
     {
         public int SumOfUnique(int[] nums)
         {
+            int sum = 0;
             Dictionary<int, int> dict = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)
             {
-                if (dict.ContainsKey(nums[i]))
-                    dict[nums[i]]++;
-                else
-                    dict.Add(nums[i], 1);
-            }
-            int sum = 0;
-            foreach (var item in dict)
-            {
-                if (item.Value == 1)
-                    sum += item.Key;
+                if (!dict.ContainsKey(nums[i]))
+                    dict.Add(nums[i], 0);
+                ++dict[nums[i]];
+                if (dict[nums[i]] == 1)
+                    sum += dict[nums[i]];
+                else if (dict[nums[i]] == 2)
+                    sum -= dict[nums[i]];
             }
             return sum;
         }

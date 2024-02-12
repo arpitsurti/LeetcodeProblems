@@ -37,6 +37,7 @@ namespace LeetcodeProblems.Easy
     */
     public class clsCountingBits
     {
+        /* APPROACH 1
         public int[] CountBits(int n)
         {
             int num = 0;
@@ -60,6 +61,16 @@ namespace LeetcodeProblems.Easy
                 number >>= 1;
             }
             return count;
+        }
+        */
+        public int[] CountBits(int n)
+        {
+            int[] result = new int[n + 1];
+            for (int i = 0; i <= n; i++)
+            {
+                result[i] = result[i >> 1] + (i & 1);
+            }
+            return result;
         }
     }
 }

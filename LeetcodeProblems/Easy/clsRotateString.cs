@@ -32,6 +32,19 @@ namespace LeetcodeProblems.Easy
         public bool RotateString(string s, string goal)
         {
             return s.Length == goal.Length && (s + s).Contains(goal);
+            /* APPROACH 2
+                if(s.Length != goal.Length)
+                    return false;
+                if(s.Length == 1 && s != goal)
+                    return false;
+                int times = s.Length;
+                while(s != goal && times > 0)
+                {
+                    s = s.Substring(1, s.Length - 1) + s[0];
+                    times--;
+                }
+                return s == goal;
+            */
         }
     }
 }

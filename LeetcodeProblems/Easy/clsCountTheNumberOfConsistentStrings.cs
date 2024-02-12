@@ -36,6 +36,31 @@ namespace LeetcodeProblems.Easy
     {
         public int CountConsistentStrings(string allowed, string[] words)
         {
+            //USING BIT MANIPULATION
+            int alphabets = 0;
+            for (int i = 0; i < allowed.Length; i++)
+            {
+                int shiftsReq = allowed[i] - 'a';
+                alphabets |= 1 << shiftsReq;
+            }
+            int output = 0;
+            foreach (var item in words)
+            {
+                bool flgAvail = true;
+                for (int i = 0; i < item.Length; i++)
+                {
+                    if ((alphabets & (1 << item[i] - 'a')) == 0)
+                    {
+                        flgAvail = false;
+                        break;
+                    }
+                }
+                if (flgAvail)
+                    output++;
+            }
+            return output;
+            //APPROACH 2
+            /*
             HashSet<char> hsAllowed = new HashSet<char>();
             for (int i = 0; i < allowed.Length; i++)
             {
@@ -56,7 +81,6 @@ namespace LeetcodeProblems.Easy
                 if (valid)
                     output++;
             }
-            return output;
         }
     }
 }

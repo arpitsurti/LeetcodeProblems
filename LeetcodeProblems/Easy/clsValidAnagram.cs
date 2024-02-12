@@ -32,22 +32,14 @@ namespace LeetcodeProblems.Easy
             //APROACH 1 USING ARRAY COUNT
             if (s.Length != t.Length)
                 return false;
-            int[] charCount = new int[26];
+            int[] map = new int[26];
             for (int i = 0; i < s.Length; i++)
-            {
-                char c = s[i];
-                charCount[c - 'a']++;
-            }
+                map[s[i] - 'a']++;
             for (int i = 0; i < t.Length; i++)
-            {
-                char c = t[i];
-                charCount[c - 'a']--;
-                if (charCount[c - 'a'] < 0)
-                    return false;
-            }
+                map[t[i] - 'a']--;
             for (int i = 0; i < 26; i++)
             {
-                if (charCount[i] > 0)
+                if (map[i] != 0)
                     return false;
             }
             return true;

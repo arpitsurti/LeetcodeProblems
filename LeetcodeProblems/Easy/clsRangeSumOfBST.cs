@@ -26,6 +26,20 @@ namespace LeetcodeProblems.Easy
         int sum = 0;
         public int RangeSumBST(TreeNode root, int low, int high)
         {
+            //APPROACH 3 just o eliminate the extra tranversal of tree
+            /*if (root == null)
+                return sum;
+            if (root.val >= low && root.val <= high)
+                sum += root.val;
+            if (root.val < low && root.val > high)
+                return sum;
+            else
+            {
+                RangeSumBST(root.left, low, high);
+                RangeSumBST(root.right, low, high);
+                return sum;
+            }
+            */
             //APPROACH 1
             if (root == null)
                 return sum;

@@ -35,6 +35,20 @@ namespace LeetcodeProblems.Easy
             Stack<char> st = new Stack<char>();
             for (int i = 0; i < s.Length; i++)
             {
+                if (s[i] == '(')
+                    st.Push(')');
+                else if (s[i] == '{')
+                    st.Push('}');
+                else if (s[i] == '[')
+                    st.Push(']');
+                else if (st.Count == 0 || st.Pop() != s[i])
+                    return false;
+            }
+            return st.Count == 0;
+            /*APPROACH 3
+            Stack<char> st = new Stack<char>();
+            for (int i = 0; i < s.Length; i++)
+            {
                 if (s[i] == ')' && st.Count > 0 && st.Peek() == '(')
                     st.Pop();
                 else if (s[i] == '}' && st.Count > 0 && st.Peek() == '{')
@@ -45,6 +59,29 @@ namespace LeetcodeProblems.Easy
                     st.Push(s[i]);
             }
             return st.Count == 0;
+
+            APPROACH 2
+             * Stack<char> st = new Stack<char>();
+                for(int i = 0; i < s.Length; i++)
+                {
+                    if(s[i] == '(' || s[i] == '{' || s[i] == '[')
+                        st.Push(s[i]);
+                    else
+                    {
+                        if(st.Count == 0)
+                            return false;
+                        if(s[i] == ')' && st.Peek() == '(')
+                            st.Pop();
+                        else if(s[i] == '}' && st.Peek() == '{')
+                            st.Pop();
+                        else if(s[i] == ']' && st.Peek() == '[')
+                            st.Pop();
+                        else
+                            return false;
+                    }
+                }
+                return st.Count == 0;
+             */
         }
     }
 }

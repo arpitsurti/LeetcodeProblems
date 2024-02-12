@@ -58,23 +58,14 @@ namespace LeetcodeProblems.Easy
     {
         public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
         {
-            if (headA == null || headB == null)
-                return null;
-            ListNode a = headA;
-            ListNode b = headB;
-            while (a != b)
+            ListNode l1 = headA;
+            ListNode l2 = headB;
+            while (l1 != l2)
             {
-                if (a == null)
-                    a = headB;
-                else
-                    a = a.next;
-
-                if (b == null)
-                    b = headA;
-                else
-                    b = b.next;
+                l1 = l1 != null ? l1.next : headB;
+                l2 = l2 != null ? l2.next : headA;
             }
-            return a;
+            return l1;
         }
     }
 }

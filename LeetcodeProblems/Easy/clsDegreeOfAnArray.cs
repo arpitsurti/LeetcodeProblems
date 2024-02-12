@@ -36,38 +36,24 @@ namespace LeetcodeProblems.Easy
         public int FindShortestSubArray(int[] nums)
         {
             Dictionary<int, List<int>> dict = new Dictionary<int, List<int>>();
-            Dictionary<int, int> dictCount = new Dictionary<int, int>();
-            int minLength = int.MaxValue;
-            int maxCount = 0;
+            int output = int.MaxValue;
+            int maxCount = 1;
             for (int i = 0; i < nums.Length; i++)
             {
                 if (!dict.ContainsKey(nums[i]))
-                {
-                    dict.Add(nums[i], new List<int>() { i });
-                    dictCount.Add(nums[i], 0);
-                }
-                else
-                {
-                    if (dict[nums[i]].Count == 1)
-                        dict[nums[i]].Add(i);
-                    else
-                        dict[nums[i]][1] = i;
-                }
-                dictCount[nums[i]]++;
-                maxCount = Math.Max(maxCount, dictCount[nums[i]]);
+                    dict.Add(nums[i], new List<int>());
+                dict[nums[i]].Add(i);
+                if (dict[nums[i]].Count > maxCount)
+                    maxCount = dict[nums[i]].Count;
             }
-            foreach (var item in dictCount)
+
+            foreach (var item in dict)
             {
-                if (item.Value == maxCount)
-                {
-                    int[] temp = dict[item.Key].ToArray();
-                    if (temp.Length == 1)
-                        minLength = 0;
-                    else
-                        minLength = Math.Min(minLength, temp[1] - temp[0]);
-                }
+                int count = item.Value.Count;
+                if (count == maxCount)
+                    output = Math.Min(item.Value[count - 1] - item.Value[0] + 1, output);
             }
-            return minLength + 1;
+            return output;
         }
     }
 }

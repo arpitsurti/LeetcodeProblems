@@ -26,35 +26,20 @@ namespace LeetcodeProblems.Easy
     {
         public IList<IList<int>> Generate(int numRows)
         {
-            IList<IList<int>> output = new List<IList<int>>();
-            if (numRows == 0)
-                return output;
-            int index = 2;
-            IList<int> lst = new List<int>();
-            lst.Add(1);
-            output.Add(lst);
-            while (index <= numRows)
+            IList<IList<int>> lstResult = new List<IList<int>>();
+            lstResult.Add(new List<int>() { 1 });
+            for (int i = 1; i < numRows; i++)
             {
-                List<int> arr = new List<int>();
-                for (int i = 0; i < index; i++)
+                IList<int> lstCurr = new List<int>();
+                lstCurr.Add(1);
+                for (int j = 1; j < i; j++)
                 {
-                    if (i == 0)
-                        arr.Add(1);
-                    else if (i == index - 1)
-                    {
-                        arr.Add(1);
-                        output.Add(arr);
-                    }
-                    else
-                    {
-                        int prev1 = output[index - 2][i];
-                        int prev2 = output[index - 2][i - 1];
-                        arr.Add(prev1 + prev2);
-                    }
+                    lstCurr.Add(lstResult[i - 1][j] + lstResult[i - 1][j - 1]);
                 }
-                index++;
+                lstCurr.Add(1);
+                lstResult.Add(lstCurr);
             }
-            return output;
+            return lstResult;
         }
 
         /*

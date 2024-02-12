@@ -7,8 +7,6 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Easy
 {
     /*191. Number of 1 Bits
-     *** REF ***
-     *https://www.youtube.com/watch?v=5Km3utixwZs
      * Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
 
         Note:
@@ -39,6 +37,15 @@ namespace LeetcodeProblems.Easy
     {
         public int HammingWeight(uint n)
         {
+            //USING REMOVING MOST SIGNIFICANT 1 FROM NUMBER
+            int output = 0;
+            while (n != 0)
+            {
+                n = n & (n - 1);
+                output++;
+            }
+            return output;
+            /* APPROACH 2
             int count = 0;
             while (n != 0)
             {
@@ -47,6 +54,7 @@ namespace LeetcodeProblems.Easy
                 n >>= 1;
             }
             return count;
+            */
         }
     }
 }

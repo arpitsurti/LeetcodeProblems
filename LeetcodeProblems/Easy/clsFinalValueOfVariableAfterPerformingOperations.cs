@@ -50,15 +50,15 @@ namespace LeetcodeProblems.Easy
     {
         public int FinalValueAfterOperations(string[] operations)
         {
-            int result = 0;
+            int x = 0;
             for (int i = 0; i < operations.Length; i++)
             {
                 if (operations[i][1] == '-')
-                    result--;
+                    x--;
                 else
-                    result++;
+                    x++;
             }
-            return result;
+            return x;
         }
     }
 }

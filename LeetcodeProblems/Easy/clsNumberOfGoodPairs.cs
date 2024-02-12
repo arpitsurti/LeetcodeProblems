@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Easy
 {
     /*1512. Number of Good Pairs
-     *** REF ***
      * Given an array of integers nums, return the number of good pairs.
         A pair (i, j) is called good if nums[i] == nums[j] and i < j.
 
@@ -33,6 +32,25 @@ namespace LeetcodeProblems.Easy
     {
         public int NumIdenticalPairs(int[] nums)
         {
+            //APPROACH 2
+            //TO CALCULATE THE FREQUENCY OF THE NUMBER USE FORMULA N * (N - 1) / 2
+            Dictionary<int, int> dict = new Dictionary<int, int>();
+            int output = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (!dict.ContainsKey(nums[i]))
+                    dict.Add(nums[i], 1);
+                else
+                    dict[nums[i]]++;
+            }
+            foreach (var item in dict.Values)
+            {
+                if (item > 1)
+                    output += (item * (item - 1) / 2);
+            }
+            return output;
+            /*
+             * APPROACH 1
             Dictionary<int, int> dict = new Dictionary<int, int>();
             int count = 0;
             for (int i = 0; i < nums.Length; i++)
@@ -46,6 +64,7 @@ namespace LeetcodeProblems.Easy
                     dict.Add(nums[i], 1);
             }
             return count;
+            */
         }
     }
 }

@@ -48,24 +48,20 @@ namespace LeetcodeProblems.Easy
     {
         public int CountPoints(string rings)
         {
-            Dictionary<int, string> dict = new Dictionary<int, string>();
-            for (int i = rings.Length - 1; i >= 0; i--)
+            Dictionary<int, HashSet<char>> dict = new Dictionary<int, HashSet<char>>();
+            for (int i = 0; i < rings.Length; i += 2)
             {
-                if (i % 2 == 1)
-                {
-                    if (!dict.ContainsKey(rings[i]))
-                        dict.Add(rings[i], "RGB");
-                }
-                else
-                    dict[rings[i + 1]] = dict[rings[i + 1]].Replace(rings[i].ToString(), "");
+                if (!dict.ContainsKey(i + 1))
+                    dict.Add(i + 1, new HashSet<char>());
+                dict[i + 1].Add(rings[i]);
             }
-            int result = 0;
-            foreach (var item in dict)
+            int output = 0;
+            foreach (var item in dict.Values)
             {
-                if (string.IsNullOrEmpty(item.Value))
-                    result++;
+                if (item.Count == 3)
+                    output++;
             }
-            return result;
+            return output;
         }
     }
 }

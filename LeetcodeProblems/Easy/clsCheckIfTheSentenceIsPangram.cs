@@ -32,9 +32,7 @@ namespace LeetcodeProblems.Easy
             {
                 hs.Add(sentence[i]);
             }
-            if (hs.Count == 26)
-                return true;
-            return false;
+            return hs.Count == 26;
         }
     }
 }

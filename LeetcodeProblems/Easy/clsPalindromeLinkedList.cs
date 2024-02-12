@@ -28,23 +28,21 @@ namespace LeetcodeProblems.Easy
     {
         public bool IsPalindrome(ListNode head)
         {
-            List<int> lstNodeVals = new List<int>();
+            Stack<int> st = new Stack<int>();
+            ListNode curr = head;
+            while (curr != null)
+            {
+                st.Push(curr.val);
+                curr = curr.next;
+            }
             while (head != null)
             {
-                lstNodeVals.Add(head.val);
+                int popped = st.Pop();
+                if (popped != head.val)
+                    return false;
                 head = head.next;
             }
-
-            int start = 0;
-            int end = lstNodeVals.Count - 1;
-            while (start < end)
-            {
-                if (lstNodeVals[start] != lstNodeVals[end])
-                    return false;
-                start++;
-                end--;
-            }
-            return true;
+            return true; ;
         }
     }
 }

@@ -29,6 +29,20 @@ namespace LeetcodeProblems.Easy
     {
         public int FirstUniqChar(string s)
         {
+            //APPROACH 1
+            int[] map = new int[26];
+            for (int i = 0; i < s.Length; i++)
+            {
+                map[s[i] - 'a']++;
+            }
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (map[s[i] - 'a'] == 1)
+                    return i;
+            }
+            return -1;
+
+            /* APPROACH 2
             Dictionary<char, int> dict = new Dictionary<char, int>();
             for (int i = 0; i < s.Length; i++)
             {
@@ -43,6 +57,7 @@ namespace LeetcodeProblems.Easy
                     return i;
             }
             return -1;
+            */
         }
     }
 }

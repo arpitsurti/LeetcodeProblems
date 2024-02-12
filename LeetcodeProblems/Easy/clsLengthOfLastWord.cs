@@ -34,18 +34,31 @@ namespace LeetcodeProblems.Easy
     {
         public int LengthOfLastWord(string s)
         {
-            int output = 0;
-            for (int i = s.Length - 1; i >= 0; i--)
+            int end = s.Length - 1;
+            int len = 0;
+            while (end >= 0)
             {
-                if (s[i] != ' ')
-                    output++;
-                else
+                while (end >= 0 && s[end] != ' ')
                 {
-                    if (output > 0)
-                        return output;
+                    len++;
+                    end--;
                 }
+                end--;
+                if (len > 0)
+                    return len;
             }
-            return output;
+            return len;
+            /*
+            int length = 0;
+            for(int i = s.Length - 1; i >= 0; i--)
+            {
+                if(s[i] != ' ')
+                    length++;
+                if(s[i] == ' ' && length > 0)
+                    return length;
+            }
+            return length;
+            */
         }
     }
 }

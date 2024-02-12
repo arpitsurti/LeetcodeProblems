@@ -35,9 +35,31 @@ namespace LeetcodeProblems.Easy
     {
         public bool DivideArray(int[] nums)
         {
+            //USING BIT MANIPULATION
+            /*
+             * Array.Sort(nums);
+                for(int i = 0; i < nums.Length; i+=2)
+                {
+                    if((nums[i] ^ nums[i + 1]) != 0)
+                        return false;
+                }
+                return true;
+             * */
             if (nums.Length % 2 == 1)
                 return false;
-            Dictionary<int, int> dict = new Dictionary<int, int>();
+            //Without dictionary
+            int[] map = new int[501];
+            for (int i = 0; i < nums.Length; i++)
+            {
+                map[nums[i]]++;
+            }
+            for (int i = 0; i < 501; i++)
+            {
+                if (map[i] % 2 != 0)
+                    return false;
+            }
+            return true;
+            /*Dictionary<int, int> dict = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)
             {
                 if (dict.ContainsKey(nums[i]))
@@ -52,6 +74,7 @@ namespace LeetcodeProblems.Easy
                     return false;
             }
             return true;
+            */
         }
     }
 }
