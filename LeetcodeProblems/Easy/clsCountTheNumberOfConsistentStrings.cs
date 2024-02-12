@@ -81,6 +81,8 @@ namespace LeetcodeProblems.Easy
                 if (valid)
                     output++;
             }
+            return output;
+            */
         }
     }
 }
