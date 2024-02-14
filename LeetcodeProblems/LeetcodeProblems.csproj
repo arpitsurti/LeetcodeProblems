@@ -138,6 +138,7 @@
     <Compile Include="Easy\clsFindPivotIndex.cs" />
     <Compile Include="Easy\clsFindResultantArrayAfterRemovingAnagrams.cs" />
     <Compile Include="Easy\clsFindTheDifferenceOfTwoArrays.cs" />
+    <Compile Include="Easy\clsFindWordsContainingCharacter.cs" />
     <Compile Include="Easy\clsFirstLetterToAppearTwice.cs" />
     <Compile Include="Easy\clsFloodFill.cs" />
     <Compile Include="Easy\clsGetMaximumInGeneratedArray.cs" />
