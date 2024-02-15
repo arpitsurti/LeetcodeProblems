@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace LeetcodeProblems.Easy
 {
     /*599. Minimum Index Sum of Two Lists
-     *** REF ***
      *** VERY IMP ***
      * Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings.
 
@@ -38,8 +37,7 @@ namespace LeetcodeProblems.Easy
             Dictionary<string, int> dict = new Dictionary<string, int>();
             for (int i = 0; i < list1.Length; i++)
             {
-                if (!dict.ContainsKey(list1[i]))
-                    dict.Add(list1[i], i);
+               dict.Add(list1[i], i);
             }
             int minSum = int.MaxValue;
             int currSum;
